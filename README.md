@@ -38,6 +38,7 @@ The data is designed to reflect realistic patterns: older machines have higher f
 
 ## Project structure
 
+```text
 manufacturing-operations-intelligence/
 ├── README.md
 ├── requirements.txt
@@ -74,6 +75,7 @@ manufacturing-operations-intelligence/
     ├── methodology.md
     ├── data_dictionary.md
     └── executive_summary.md
+```
 
 ## How to run locally
 
