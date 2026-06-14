@@ -1,0 +1,7 @@
+product_id,product_name,product_family,standard_cycle_time_seconds,unit_margin
+P-100,Drive Shaft,Powertrain,42.0,14.0
+P-200,Bracket Assembly,Structural,55.0,10.0
+P-300,Sensor Housing,Electronics,36.0,18.0
+P-400,Valve Body,Fluid,48.0,12.0
+P-500,Control Panel,Electronics,39.0,16.0
+P-600,Gear Carrier,Powertrain,51.0,11.0

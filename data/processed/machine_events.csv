@@ -1,0 +1,265 @@
+event_id,date,production_line,machine_id,shift,event_type,downtime_reason,downtime_minutes,severity
+EVT-00001,2025-01-05,Line A,M-101,Day,unplanned,power fluctuation,45.8,Medium
+EVT-00002,2025-01-08,Line A,M-101,Day,unplanned,overheat,12.3,Medium
+EVT-00003,2025-01-17,Line A,M-101,Night,unplanned,belt wear,33.4,High
+EVT-00004,2025-01-20,Line A,M-101,Swing,unplanned,lubrication issue,25.6,Medium
+EVT-00005,2025-01-23,Line A,M-101,Night,unplanned,overheat,15.9,High
+EVT-00006,2025-01-29,Line A,M-101,Swing,planned,tool change,14.5,Low
+EVT-00007,2025-02-07,Line A,M-101,Swing,unplanned,lubrication issue,32.0,High
+EVT-00008,2025-02-10,Line A,M-101,Night,unplanned,lubrication issue,39.5,Medium
+EVT-00009,2025-02-16,Line A,M-101,Swing,planned,tool change,28.6,Low
+EVT-00010,2025-02-22,Line A,M-101,Night,planned,calibration,27.8,Low
+EVT-00011,2025-02-25,Line A,M-101,Swing,planned,calibration,20.8,Low
+EVT-00012,2025-03-03,Line A,M-101,Day,unplanned,power fluctuation,35.2,Medium
+EVT-00013,2025-03-09,Line A,M-101,Day,unplanned,overheat,34.9,High
+EVT-00014,2025-03-12,Line A,M-101,Day,unplanned,belt wear,18.5,Medium
+EVT-00015,2025-03-18,Line A,M-101,Night,unplanned,sensor drift,22.7,High
+EVT-00016,2025-03-21,Line A,M-101,Night,unplanned,power fluctuation,33.8,High
+EVT-00017,2025-03-24,Line A,M-101,Night,planned,planned maintenance,16.7,Low
+EVT-00018,2025-03-27,Line A,M-101,Day,planned,tool change,19.9,Low
+EVT-00019,2025-04-08,Line A,M-101,Night,planned,scheduled inspection,27.1,Low
+EVT-00020,2025-04-11,Line A,M-101,Swing,planned,scheduled inspection,15.7,Low
+EVT-00021,2025-04-23,Line A,M-101,Swing,unplanned,sensor drift,12.5,High
+EVT-00022,2025-04-29,Line A,M-101,Day,unplanned,bearing fault,61.5,Medium
+EVT-00023,2025-05-02,Line A,M-101,Swing,planned,scheduled inspection,12.5,Low
+EVT-00024,2025-05-08,Line A,M-101,Night,unplanned,power fluctuation,13.9,High
+EVT-00025,2025-05-11,Line A,M-101,Swing,planned,scheduled inspection,21.2,Low
+EVT-00026,2025-05-14,Line A,M-101,Night,unplanned,lubrication issue,26.4,High
+EVT-00027,2025-05-17,Line A,M-101,Swing,planned,scheduled inspection,18.4,Low
+EVT-00028,2025-05-20,Line A,M-101,Day,unplanned,bearing fault,32.7,Medium
+EVT-00029,2025-05-26,Line A,M-101,Swing,unplanned,bearing fault,17.8,Medium
+EVT-00030,2025-05-29,Line A,M-101,Swing,unplanned,overheat,19.5,Medium
+EVT-00031,2025-06-01,Line A,M-101,Swing,planned,planned maintenance,20.1,Low
+EVT-00032,2025-06-07,Line A,M-101,Swing,unplanned,sensor drift,22.7,Medium
+EVT-00033,2025-06-10,Line A,M-101,Day,unplanned,lubrication issue,26.0,High
+EVT-00034,2025-06-16,Line A,M-101,Day,unplanned,bearing fault,23.7,Medium
+EVT-00035,2025-06-19,Line A,M-101,Day,unplanned,lubrication issue,27.4,High
+EVT-00036,2025-06-25,Line A,M-101,Swing,unplanned,power fluctuation,27.9,Medium
+EVT-00037,2025-01-03,Line A,M-102,Day,unplanned,power fluctuation,46.7,High
+EVT-00038,2025-01-09,Line A,M-102,Night,planned,scheduled inspection,10.4,Low
+EVT-00039,2025-01-18,Line A,M-102,Day,planned,scheduled inspection,44.0,Low
+EVT-00040,2025-01-21,Line A,M-102,Night,planned,calibration,9.0,Low
+EVT-00041,2025-01-24,Line A,M-102,Day,planned,tool change,5.1,Low
+EVT-00042,2025-01-27,Line A,M-102,Swing,planned,calibration,44.7,Low
+EVT-00043,2025-01-30,Line A,M-102,Day,planned,tool change,10.5,Low
+EVT-00044,2025-02-08,Line A,M-102,Day,unplanned,bearing fault,15.8,High
+EVT-00045,2025-02-17,Line A,M-102,Night,planned,scheduled inspection,31.6,Low
+EVT-00046,2025-02-20,Line A,M-102,Day,unplanned,sensor drift,13.2,High
+EVT-00047,2025-02-23,Line A,M-102,Swing,planned,planned maintenance,20.4,Low
+EVT-00048,2025-03-10,Line A,M-102,Night,unplanned,bearing fault,20.2,High
+EVT-00049,2025-03-13,Line A,M-102,Swing,planned,tool change,21.5,Low
+EVT-00050,2025-03-22,Line A,M-102,Night,planned,scheduled inspection,7.2,Low
+EVT-00051,2025-03-25,Line A,M-102,Night,unplanned,power fluctuation,14.6,High
+EVT-00052,2025-03-28,Line A,M-102,Night,unplanned,power fluctuation,15.8,Medium
+EVT-00053,2025-04-03,Line A,M-102,Day,unplanned,lubrication issue,8.7,High
+EVT-00054,2025-04-06,Line A,M-102,Night,unplanned,belt wear,24.1,Medium
+EVT-00055,2025-04-09,Line A,M-102,Day,unplanned,power fluctuation,13.2,High
+EVT-00056,2025-04-15,Line A,M-102,Swing,unplanned,overheat,38.8,High
+EVT-00057,2025-04-18,Line A,M-102,Swing,unplanned,bearing fault,29.0,High
+EVT-00058,2025-04-30,Line A,M-102,Day,planned,scheduled inspection,32.9,Low
+EVT-00059,2025-05-06,Line A,M-102,Day,unplanned,belt wear,14.0,Medium
+EVT-00060,2025-05-09,Line A,M-102,Night,planned,tool change,22.9,Low
+EVT-00061,2025-05-12,Line A,M-102,Night,planned,planned maintenance,33.4,Low
+EVT-00062,2025-05-15,Line A,M-102,Night,unplanned,overheat,41.7,Medium
+EVT-00063,2025-05-18,Line A,M-102,Swing,unplanned,power fluctuation,14.7,Medium
+EVT-00064,2025-05-21,Line A,M-102,Swing,unplanned,sensor drift,26.1,Medium
+EVT-00065,2025-05-24,Line A,M-102,Swing,planned,calibration,8.2,Low
+EVT-00066,2025-06-02,Line A,M-102,Swing,unplanned,power fluctuation,24.3,High
+EVT-00067,2025-06-08,Line A,M-102,Night,unplanned,belt wear,14.3,Medium
+EVT-00068,2025-06-11,Line A,M-102,Day,unplanned,sensor drift,13.0,Medium
+EVT-00069,2025-06-17,Line A,M-102,Night,unplanned,power fluctuation,19.6,High
+EVT-00070,2025-06-20,Line A,M-102,Swing,unplanned,bearing fault,2.1,Medium
+EVT-00071,2025-06-26,Line A,M-102,Day,planned,planned maintenance,27.3,Low
+EVT-00072,2025-01-07,Line B,M-103,Night,planned,scheduled inspection,29.1,Low
+EVT-00073,2025-01-13,Line B,M-103,Day,planned,calibration,12.1,Low
+EVT-00074,2025-01-19,Line B,M-103,Day,planned,scheduled inspection,27.2,Low
+EVT-00075,2025-01-25,Line B,M-103,Swing,planned,planned maintenance,24.8,Low
+EVT-00076,2025-02-09,Line B,M-103,Night,unplanned,belt wear,15.6,Medium
+EVT-00077,2025-02-18,Line B,M-103,Swing,unplanned,sensor drift,44.7,Medium
+EVT-00078,2025-02-24,Line B,M-103,Day,unplanned,overheat,20.4,Medium
+EVT-00079,2025-03-02,Line B,M-103,Day,unplanned,belt wear,38.2,Medium
+EVT-00080,2025-03-05,Line B,M-103,Swing,unplanned,sensor drift,12.1,High
+EVT-00081,2025-03-08,Line B,M-103,Swing,unplanned,power fluctuation,24.6,Medium
+EVT-00082,2025-03-11,Line B,M-103,Night,unplanned,power fluctuation,18.0,High
+EVT-00083,2025-03-14,Line B,M-103,Swing,unplanned,bearing fault,22.8,High
+EVT-00084,2025-03-23,Line B,M-103,Swing,unplanned,belt wear,17.9,Medium
+EVT-00085,2025-03-26,Line B,M-103,Night,unplanned,overheat,46.0,High
+EVT-00086,2025-03-29,Line B,M-103,Night,unplanned,power fluctuation,20.8,Medium
+EVT-00087,2025-04-01,Line B,M-103,Swing,unplanned,overheat,6.8,Medium
+EVT-00088,2025-04-07,Line B,M-103,Swing,unplanned,bearing fault,38.6,High
+EVT-00089,2025-04-10,Line B,M-103,Day,unplanned,power fluctuation,26.3,High
+EVT-00090,2025-04-19,Line B,M-103,Day,unplanned,lubrication issue,47.0,High
+EVT-00091,2025-04-25,Line B,M-103,Swing,unplanned,overheat,22.1,Medium
+EVT-00092,2025-04-28,Line B,M-103,Swing,planned,planned maintenance,26.2,Low
+EVT-00093,2025-05-04,Line B,M-103,Night,unplanned,sensor drift,40.8,High
+EVT-00094,2025-05-07,Line B,M-103,Night,planned,tool change,25.9,Low
+EVT-00095,2025-05-10,Line B,M-103,Night,planned,scheduled inspection,9.6,Low
+EVT-00096,2025-05-19,Line B,M-103,Swing,planned,planned maintenance,21.4,Low
+EVT-00097,2025-05-22,Line B,M-103,Night,unplanned,bearing fault,30.4,High
+EVT-00098,2025-05-25,Line B,M-103,Day,planned,planned maintenance,34.5,Low
+EVT-00099,2025-05-28,Line B,M-103,Day,planned,calibration,16.9,Low
+EVT-00100,2025-05-31,Line B,M-103,Night,unplanned,lubrication issue,19.1,Medium
+EVT-00101,2025-06-06,Line B,M-103,Swing,unplanned,bearing fault,12.7,High
+EVT-00102,2025-06-18,Line B,M-103,Night,unplanned,power fluctuation,21.5,High
+EVT-00103,2025-06-21,Line B,M-103,Night,unplanned,power fluctuation,4.8,High
+EVT-00104,2025-06-27,Line B,M-103,Night,unplanned,sensor drift,19.2,Medium
+EVT-00105,2025-01-08,Line C,M-201,Day,planned,tool change,15.4,Low
+EVT-00106,2025-01-11,Line C,M-201,Swing,unplanned,overheat,3.9,Medium
+EVT-00107,2025-01-14,Line C,M-201,Day,planned,tool change,8.0,Low
+EVT-00108,2025-01-17,Line C,M-201,Day,unplanned,belt wear,23.0,High
+EVT-00109,2025-01-23,Line C,M-201,Night,planned,calibration,23.5,Low
+EVT-00110,2025-01-29,Line C,M-201,Day,unplanned,bearing fault,27.3,Medium
+EVT-00111,2025-02-01,Line C,M-201,Night,unplanned,overheat,19.8,Medium
+EVT-00112,2025-02-04,Line C,M-201,Day,unplanned,overheat,19.4,High
+EVT-00113,2025-02-07,Line C,M-201,Day,unplanned,sensor drift,24.2,Medium
+EVT-00114,2025-02-22,Line C,M-201,Night,unplanned,overheat,16.3,Medium
+EVT-00115,2025-02-28,Line C,M-201,Day,unplanned,bearing fault,14.0,High
+EVT-00116,2025-03-06,Line C,M-201,Day,unplanned,bearing fault,28.6,Medium
+EVT-00117,2025-03-09,Line C,M-201,Night,planned,scheduled inspection,8.2,Low
+EVT-00118,2025-03-12,Line C,M-201,Night,planned,tool change,10.7,Low
+EVT-00119,2025-04-02,Line C,M-201,Day,planned,scheduled inspection,22.6,Low
+EVT-00120,2025-04-05,Line C,M-201,Day,unplanned,bearing fault,18.2,Medium
+EVT-00121,2025-04-08,Line C,M-201,Night,unplanned,lubrication issue,24.4,Medium
+EVT-00122,2025-04-17,Line C,M-201,Night,unplanned,overheat,20.7,Medium
+EVT-00123,2025-04-20,Line C,M-201,Day,planned,calibration,36.1,Low
+EVT-00124,2025-04-26,Line C,M-201,Night,unplanned,lubrication issue,41.0,Medium
+EVT-00125,2025-04-29,Line C,M-201,Night,unplanned,power fluctuation,20.7,Medium
+EVT-00126,2025-05-11,Line C,M-201,Day,unplanned,overheat,19.9,Medium
+EVT-00127,2025-05-14,Line C,M-201,Swing,unplanned,lubrication issue,18.1,High
+EVT-00128,2025-05-17,Line C,M-201,Day,unplanned,lubrication issue,15.7,High
+EVT-00129,2025-05-20,Line C,M-201,Swing,unplanned,belt wear,21.3,Medium
+EVT-00130,2025-05-26,Line C,M-201,Day,unplanned,power fluctuation,7.4,High
+EVT-00131,2025-06-04,Line C,M-201,Day,unplanned,sensor drift,7.8,Medium
+EVT-00132,2025-06-10,Line C,M-201,Swing,unplanned,sensor drift,37.8,Medium
+EVT-00133,2025-06-16,Line C,M-201,Night,planned,calibration,2.2,Low
+EVT-00134,2025-06-19,Line C,M-201,Night,planned,tool change,9.4,Low
+EVT-00135,2025-06-22,Line C,M-201,Night,planned,tool change,65.5,Low
+EVT-00136,2025-07-01,Line C,M-201,Night,unplanned,lubrication issue,20.7,High
+EVT-00137,2025-01-01,Line C,M-202,Night,unplanned,overheat,9.3,High
+EVT-00138,2025-01-07,Line C,M-202,Night,unplanned,power fluctuation,36.6,High
+EVT-00139,2025-01-10,Line C,M-202,Day,unplanned,sensor drift,30.0,Medium
+EVT-00140,2025-01-13,Line C,M-202,Day,planned,calibration,50.4,Low
+EVT-00141,2025-01-19,Line C,M-202,Night,planned,planned maintenance,9.1,Low
+EVT-00142,2025-01-22,Line C,M-202,Night,unplanned,bearing fault,69.7,High
+EVT-00143,2025-01-25,Line C,M-202,Day,unplanned,sensor drift,37.2,Medium
+EVT-00144,2025-01-28,Line C,M-202,Day,unplanned,overheat,37.8,High
+EVT-00145,2025-02-09,Line C,M-202,Day,planned,calibration,30.2,Low
+EVT-00146,2025-02-12,Line C,M-202,Swing,unplanned,bearing fault,25.9,High
+EVT-00147,2025-02-15,Line C,M-202,Swing,unplanned,belt wear,87.8,High
+EVT-00148,2025-02-24,Line C,M-202,Swing,unplanned,overheat,30.7,High
+EVT-00149,2025-02-27,Line C,M-202,Night,unplanned,power fluctuation,29.9,Medium
+EVT-00150,2025-03-05,Line C,M-202,Swing,unplanned,sensor drift,33.3,High
+EVT-00151,2025-03-11,Line C,M-202,Day,unplanned,overheat,47.6,High
+EVT-00152,2025-03-20,Line C,M-202,Day,unplanned,belt wear,15.5,Medium
+EVT-00153,2025-03-26,Line C,M-202,Night,planned,tool change,31.6,Low
+EVT-00154,2025-04-01,Line C,M-202,Night,planned,scheduled inspection,11.3,Low
+EVT-00155,2025-04-04,Line C,M-202,Night,unplanned,sensor drift,39.6,High
+EVT-00156,2025-04-13,Line C,M-202,Day,unplanned,belt wear,44.5,High
+EVT-00157,2025-04-16,Line C,M-202,Swing,planned,scheduled inspection,28.7,Low
+EVT-00158,2025-04-25,Line C,M-202,Swing,unplanned,bearing fault,29.9,Medium
+EVT-00159,2025-04-28,Line C,M-202,Night,unplanned,lubrication issue,18.7,High
+EVT-00160,2025-05-04,Line C,M-202,Day,unplanned,overheat,11.3,Medium
+EVT-00161,2025-05-10,Line C,M-202,Night,unplanned,power fluctuation,37.0,High
+EVT-00162,2025-05-13,Line C,M-202,Swing,unplanned,belt wear,24.1,High
+EVT-00163,2025-05-16,Line C,M-202,Day,unplanned,belt wear,21.4,High
+EVT-00164,2025-05-25,Line C,M-202,Night,planned,calibration,18.6,Low
+EVT-00165,2025-05-28,Line C,M-202,Swing,planned,planned maintenance,49.7,Low
+EVT-00166,2025-05-31,Line C,M-202,Swing,unplanned,overheat,8.7,High
+EVT-00167,2025-06-03,Line C,M-202,Day,unplanned,overheat,25.3,Medium
+EVT-00168,2025-06-06,Line C,M-202,Swing,planned,scheduled inspection,35.7,Low
+EVT-00169,2025-06-09,Line C,M-202,Night,unplanned,power fluctuation,42.9,Medium
+EVT-00170,2025-06-15,Line C,M-202,Swing,unplanned,power fluctuation,51.3,High
+EVT-00171,2025-06-18,Line C,M-202,Day,unplanned,power fluctuation,15.1,Medium
+EVT-00172,2025-06-24,Line C,M-202,Swing,unplanned,overheat,55.7,Medium
+EVT-00173,2025-01-02,Line D,M-203,Day,unplanned,sensor drift,19.2,High
+EVT-00174,2025-01-05,Line D,M-203,Day,unplanned,belt wear,17.6,High
+EVT-00175,2025-01-08,Line D,M-203,Day,unplanned,belt wear,4.9,High
+EVT-00176,2025-01-11,Line D,M-203,Swing,unplanned,belt wear,47.1,Medium
+EVT-00177,2025-01-17,Line D,M-203,Swing,unplanned,bearing fault,7.1,Medium
+EVT-00178,2025-01-20,Line D,M-203,Night,unplanned,bearing fault,18.5,Medium
+EVT-00179,2025-01-26,Line D,M-203,Night,unplanned,bearing fault,22.8,Medium
+EVT-00180,2025-01-29,Line D,M-203,Swing,unplanned,sensor drift,8.1,High
+EVT-00181,2025-02-07,Line D,M-203,Swing,unplanned,belt wear,13.5,High
+EVT-00182,2025-02-19,Line D,M-203,Night,planned,scheduled inspection,5.1,Low
+EVT-00183,2025-02-25,Line D,M-203,Night,unplanned,power fluctuation,20.7,High
+EVT-00184,2025-02-28,Line D,M-203,Swing,unplanned,bearing fault,9.6,Medium
+EVT-00185,2025-03-06,Line D,M-203,Swing,planned,tool change,27.1,Low
+EVT-00186,2025-03-12,Line D,M-203,Night,unplanned,bearing fault,14.9,High
+EVT-00187,2025-03-18,Line D,M-203,Night,planned,calibration,23.0,Low
+EVT-00188,2025-03-24,Line D,M-203,Night,unplanned,lubrication issue,25.4,High
+EVT-00189,2025-03-27,Line D,M-203,Swing,unplanned,sensor drift,44.6,Medium
+EVT-00190,2025-04-02,Line D,M-203,Day,unplanned,power fluctuation,41.2,High
+EVT-00191,2025-04-05,Line D,M-203,Swing,planned,tool change,41.2,Low
+EVT-00192,2025-04-26,Line D,M-203,Swing,unplanned,bearing fault,20.2,High
+EVT-00193,2025-04-29,Line D,M-203,Swing,unplanned,overheat,26.4,Medium
+EVT-00194,2025-05-05,Line D,M-203,Night,planned,planned maintenance,9.7,Low
+EVT-00195,2025-05-23,Line D,M-203,Night,unplanned,sensor drift,9.6,High
+EVT-00196,2025-05-26,Line D,M-203,Day,unplanned,power fluctuation,14.9,High
+EVT-00197,2025-06-01,Line D,M-203,Night,planned,tool change,14.0,Low
+EVT-00198,2025-06-07,Line D,M-203,Night,unplanned,bearing fault,6.9,High
+EVT-00199,2025-06-10,Line D,M-203,Day,unplanned,overheat,7.5,High
+EVT-00200,2025-06-16,Line D,M-203,Swing,unplanned,bearing fault,26.4,Medium
+EVT-00201,2025-06-22,Line D,M-203,Night,planned,planned maintenance,29.5,Low
+EVT-00202,2025-06-28,Line D,M-203,Day,unplanned,lubrication issue,11.5,Medium
+EVT-00203,2025-01-03,Line E,M-301,Day,planned,scheduled inspection,54.1,Low
+EVT-00204,2025-01-06,Line E,M-301,Night,planned,calibration,8.1,Low
+EVT-00205,2025-01-09,Line E,M-301,Swing,unplanned,lubrication issue,16.5,High
+EVT-00206,2025-01-27,Line E,M-301,Night,unplanned,power fluctuation,14.8,High
+EVT-00207,2025-01-30,Line E,M-301,Swing,unplanned,sensor drift,65.6,Medium
+EVT-00208,2025-02-05,Line E,M-301,Night,unplanned,sensor drift,23.6,High
+EVT-00209,2025-02-08,Line E,M-301,Day,unplanned,overheat,30.5,High
+EVT-00210,2025-02-14,Line E,M-301,Swing,unplanned,belt wear,17.8,Medium
+EVT-00211,2025-02-17,Line E,M-301,Night,planned,tool change,50.0,Low
+EVT-00212,2025-02-20,Line E,M-301,Day,planned,scheduled inspection,52.5,Low
+EVT-00213,2025-03-04,Line E,M-301,Day,unplanned,belt wear,18.8,Medium
+EVT-00214,2025-03-13,Line E,M-301,Night,planned,planned maintenance,25.8,Low
+EVT-00215,2025-03-16,Line E,M-301,Night,unplanned,overheat,7.4,High
+EVT-00216,2025-03-25,Line E,M-301,Day,unplanned,bearing fault,34.0,Medium
+EVT-00217,2025-03-31,Line E,M-301,Day,planned,tool change,18.9,Low
+EVT-00218,2025-04-06,Line E,M-301,Day,unplanned,lubrication issue,25.5,Medium
+EVT-00219,2025-04-09,Line E,M-301,Day,unplanned,lubrication issue,15.3,Medium
+EVT-00220,2025-04-15,Line E,M-301,Day,planned,planned maintenance,22.5,Low
+EVT-00221,2025-04-18,Line E,M-301,Night,unplanned,belt wear,34.9,High
+EVT-00222,2025-04-21,Line E,M-301,Swing,planned,tool change,63.6,Low
+EVT-00223,2025-04-27,Line E,M-301,Swing,planned,calibration,28.6,Low
+EVT-00224,2025-04-30,Line E,M-301,Swing,unplanned,power fluctuation,17.1,Medium
+EVT-00225,2025-05-06,Line E,M-301,Night,planned,scheduled inspection,11.0,Low
+EVT-00226,2025-05-24,Line E,M-301,Night,unplanned,bearing fault,64.5,High
+EVT-00227,2025-05-30,Line E,M-301,Swing,planned,planned maintenance,43.2,Low
+EVT-00228,2025-06-02,Line E,M-301,Day,planned,calibration,15.7,Low
+EVT-00229,2025-06-05,Line E,M-301,Day,planned,planned maintenance,34.5,Low
+EVT-00230,2025-06-08,Line E,M-301,Swing,planned,scheduled inspection,50.7,Low
+EVT-00231,2025-06-11,Line E,M-301,Swing,planned,planned maintenance,8.8,Low
+EVT-00232,2025-06-20,Line E,M-301,Day,planned,planned maintenance,11.0,Low
+EVT-00233,2025-06-23,Line E,M-301,Night,unplanned,bearing fault,6.0,Medium
+EVT-00234,2025-06-26,Line E,M-301,Night,unplanned,power fluctuation,13.2,High
+EVT-00235,2025-06-29,Line E,M-301,Night,unplanned,lubrication issue,23.0,High
+EVT-00236,2025-01-04,Line E,M-302,Swing,unplanned,overheat,26.2,Medium
+EVT-00237,2025-01-10,Line E,M-302,Night,unplanned,belt wear,42.5,High
+EVT-00238,2025-01-19,Line E,M-302,Day,unplanned,lubrication issue,16.3,Medium
+EVT-00239,2025-01-22,Line E,M-302,Day,planned,planned maintenance,25.6,Low
+EVT-00240,2025-01-28,Line E,M-302,Night,planned,planned maintenance,36.7,Low
+EVT-00241,2025-02-09,Line E,M-302,Swing,planned,calibration,12.2,Low
+EVT-00242,2025-02-15,Line E,M-302,Day,unplanned,overheat,28.8,Medium
+EVT-00243,2025-02-21,Line E,M-302,Day,unplanned,belt wear,51.9,Medium
+EVT-00244,2025-02-27,Line E,M-302,Day,unplanned,bearing fault,20.7,Medium
+EVT-00245,2025-03-11,Line E,M-302,Night,unplanned,sensor drift,19.5,Medium
+EVT-00246,2025-03-14,Line E,M-302,Night,planned,calibration,24.2,Low
+EVT-00247,2025-04-10,Line E,M-302,Night,unplanned,belt wear,16.1,High
+EVT-00248,2025-04-13,Line E,M-302,Swing,unplanned,overheat,22.4,High
+EVT-00249,2025-04-16,Line E,M-302,Day,unplanned,power fluctuation,10.5,High
+EVT-00250,2025-04-22,Line E,M-302,Swing,planned,scheduled inspection,48.6,Low
+EVT-00251,2025-04-28,Line E,M-302,Day,planned,calibration,32.2,Low
+EVT-00252,2025-05-16,Line E,M-302,Day,planned,calibration,30.4,Low
+EVT-00253,2025-05-19,Line E,M-302,Swing,unplanned,belt wear,22.5,High
+EVT-00254,2025-05-22,Line E,M-302,Swing,unplanned,sensor drift,7.2,High
+EVT-00255,2025-05-25,Line E,M-302,Day,unplanned,lubrication issue,31.2,Medium
+EVT-00256,2025-05-28,Line E,M-302,Night,unplanned,power fluctuation,29.8,High
+EVT-00257,2025-06-03,Line E,M-302,Day,unplanned,belt wear,40.8,High
+EVT-00258,2025-06-06,Line E,M-302,Night,planned,planned maintenance,18.1,Low
+EVT-00259,2025-06-09,Line E,M-302,Day,unplanned,overheat,46.4,Medium
+EVT-00260,2025-06-12,Line E,M-302,Day,planned,scheduled inspection,17.5,Low
+EVT-00261,2025-06-15,Line E,M-302,Night,planned,calibration,16.7,Low
+EVT-00262,2025-06-21,Line E,M-302,Night,unplanned,belt wear,8.5,High
+EVT-00263,2025-06-24,Line E,M-302,Day,unplanned,lubrication issue,15.0,High
+EVT-00264,2025-06-27,Line E,M-302,Night,planned,planned maintenance,8.6,Low

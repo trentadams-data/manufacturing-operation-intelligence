@@ -1,0 +1,32 @@
+maintenance_id,date,machine_id,maintenance_type,maintenance_minutes,component,issue_found,cost
+MTN-00001,2025-01-15,M-101,preventive,195.2,Belt,Repeated vibration spike,510.16
+MTN-00002,2025-02-15,M-101,corrective,198.9,Hydraulic,Repeated vibration spike,513.1
+MTN-00003,2025-03-15,M-101,inspection,218.4,Belt,Repeated vibration spike,528.7
+MTN-00004,2025-04-15,M-101,preventive,189.0,Motor,Repeated vibration spike,505.23
+MTN-00005,2025-01-15,M-102,replacement,111.9,Motor,Sensor drift,353.53
+MTN-00006,2025-03-15,M-102,preventive,144.2,Motor,Bearing lubrication,379.35
+MTN-00007,2025-01-15,M-103,replacement,137.8,Hydraulic,Sensor drift,410.2
+MTN-00008,2025-02-15,M-103,preventive,150.2,Belt,Bearing lubrication,420.14
+MTN-00009,2025-03-15,M-103,preventive,132.8,Control Board,Bearing lubrication,406.25
+MTN-00010,2025-04-15,M-103,preventive,158.1,Hydraulic,Bearing lubrication,426.47
+MTN-00011,2025-05-15,M-103,inspection,109.9,Hydraulic,Sensor drift,387.9
+MTN-00012,2025-06-15,M-103,corrective,134.6,Hydraulic,Sensor drift,407.7
+MTN-00013,2025-01-15,M-201,preventive,133.2,Motor,Bearing lubrication,352.57
+MTN-00014,2025-02-15,M-201,inspection,116.8,Control Board,Sensor drift,339.45
+MTN-00015,2025-04-15,M-201,replacement,116.9,Control Board,Sensor drift,339.54
+MTN-00016,2025-05-15,M-201,replacement,141.6,Motor,Sensor drift,359.25
+MTN-00017,2025-03-15,M-202,replacement,175.5,Sensor,Repeated vibration spike,530.43
+MTN-00018,2025-05-15,M-202,replacement,193.6,Hydraulic,Repeated vibration spike,544.88
+MTN-00019,2025-01-15,M-203,preventive,124.6,Belt,Bearing lubrication,327.66
+MTN-00020,2025-02-15,M-203,replacement,66.4,Motor,Sensor drift,281.11
+MTN-00021,2025-03-15,M-203,replacement,162.1,Control Board,Sensor drift,357.67
+MTN-00022,2025-04-15,M-203,preventive,118.3,Control Board,Bearing lubrication,322.64
+MTN-00023,2025-06-15,M-203,preventive,133.7,Sensor,Bearing lubrication,334.97
+MTN-00024,2025-01-15,M-301,replacement,182.6,Hydraulic,Sensor drift,464.12
+MTN-00025,2025-02-15,M-301,replacement,148.3,Hydraulic,Sensor drift,436.65
+MTN-00026,2025-03-15,M-301,replacement,151.8,Hydraulic,Sensor drift,439.44
+MTN-00027,2025-04-15,M-301,preventive,192.6,Control Board,Bearing lubrication,472.09
+MTN-00028,2025-06-15,M-301,inspection,166.7,Hydraulic,Sensor drift,451.36
+MTN-00029,2025-01-15,M-302,corrective,153.3,Control Board,Sensor drift,404.63
+MTN-00030,2025-02-15,M-302,replacement,134.1,Hydraulic,Sensor drift,389.3
+MTN-00031,2025-05-15,M-302,inspection,160.5,Motor,Sensor drift,410.36

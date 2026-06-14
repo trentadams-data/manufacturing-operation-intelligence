@@ -1,0 +1,30 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local environment files
+.env
+.env.*
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Build and test outputs
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local notebooks outputs
+*.nbconvert.ipynb
+
+# Keep data/processed CSVs tracked for the portfolio project

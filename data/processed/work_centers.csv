@@ -1,0 +1,9 @@
+machine_id,plant,production_line,machine_type,install_year,criticality
+M-101,North Plant,Line A,Press,2012,High
+M-102,North Plant,Line A,Weld,2017,Medium
+M-103,North Plant,Line B,CNC,2015,High
+M-201,South Plant,Line C,Press,2018,Medium
+M-202,South Plant,Line C,Assembler,2010,High
+M-203,South Plant,Line D,Robot,2019,Low
+M-301,West Plant,Line E,CNC,2014,High
+M-302,West Plant,Line E,Pack,2016,Medium

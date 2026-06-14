@@ -1,0 +1,183 @@
+inspection_id,date,production_line,machine_id,product_id,shift,sample_size,defect_count,defect_type,measurement_value,target_value,lower_spec_limit,upper_spec_limit
+INS-00001,2025-01-01,Line A,M-101,P-100,Night,48,1,seal leak,12.551,12.5,11.5,13.5
+INS-00002,2025-01-07,Line A,M-101,P-200,Day,93,1,surface scratch,12.209,12.5,11.5,13.5
+INS-00003,2025-01-13,Line A,M-101,P-100,Day,60,1,dimensional drift,12.124,12.5,11.5,13.5
+INS-00004,2025-01-16,Line A,M-101,P-300,Day,53,4,seal leak,12.701,12.5,11.5,13.5
+INS-00005,2025-01-31,Line A,M-101,P-300,Night,94,7,contamination,12.203,12.5,11.5,13.5
+INS-00006,2025-02-06,Line A,M-101,P-300,Swing,45,2,dimensional drift,12.392,12.5,11.5,13.5
+INS-00007,2025-02-09,Line A,M-101,P-400,Day,30,1,dimensional drift,12.214,12.5,11.5,13.5
+INS-00008,2025-02-15,Line A,M-101,P-300,Night,57,0,misalignment,12.372,12.5,11.5,13.5
+INS-00009,2025-02-18,Line A,M-101,P-400,Swing,88,1,surface scratch,12.47,12.5,11.5,13.5
+INS-00010,2025-02-21,Line A,M-101,P-400,Day,69,2,contamination,12.3,12.5,11.5,13.5
+INS-00011,2025-02-27,Line A,M-101,P-300,Day,96,2,dimensional drift,12.623,12.5,11.5,13.5
+INS-00012,2025-03-02,Line A,M-101,P-100,Swing,39,4,seal leak,12.355,12.5,11.5,13.5
+INS-00013,2025-03-05,Line A,M-101,P-200,Swing,44,2,misalignment,12.646,12.5,11.5,13.5
+INS-00014,2025-03-08,Line A,M-101,P-400,Swing,48,1,contamination,12.284,12.5,11.5,13.5
+INS-00015,2025-03-11,Line A,M-101,P-500,Swing,84,2,seal leak,12.906,12.5,11.5,13.5
+INS-00016,2025-03-14,Line A,M-101,P-100,Swing,99,5,misalignment,12.032,12.5,11.5,13.5
+INS-00017,2025-03-23,Line A,M-101,P-100,Night,60,1,contamination,12.643,12.5,11.5,13.5
+INS-00018,2025-03-26,Line A,M-101,P-200,Swing,27,1,surface scratch,12.653,12.5,11.5,13.5
+INS-00019,2025-04-01,Line A,M-101,P-300,Night,33,2,seal leak,12.379,12.5,11.5,13.5
+INS-00020,2025-04-04,Line A,M-101,P-400,Swing,27,0,contamination,12.252,12.5,11.5,13.5
+INS-00021,2025-04-07,Line A,M-101,P-600,Night,59,2,dimensional drift,12.838,12.5,11.5,13.5
+INS-00022,2025-04-10,Line A,M-101,P-100,Swing,53,2,dimensional drift,12.781,12.5,11.5,13.5
+INS-00023,2025-04-13,Line A,M-101,P-100,Night,80,1,seal leak,12.408,12.5,11.5,13.5
+INS-00024,2025-04-16,Line A,M-101,P-100,Day,90,4,contamination,12.162,12.5,11.5,13.5
+INS-00025,2025-04-19,Line A,M-101,P-200,Swing,95,1,misalignment,12.349,12.5,11.5,13.5
+INS-00026,2025-04-22,Line A,M-101,P-200,Day,53,0,misalignment,12.591,12.5,11.5,13.5
+INS-00027,2025-01-01,Line A,M-102,P-100,Swing,68,0,misalignment,12.89,12.8,11.8,13.8
+INS-00028,2025-01-04,Line A,M-102,P-400,Swing,80,2,contamination,12.508,12.8,11.8,13.8
+INS-00029,2025-01-19,Line A,M-102,P-100,Day,95,1,seal leak,12.261,12.8,11.8,13.8
+INS-00030,2025-01-22,Line A,M-102,P-300,Swing,46,0,dimensional drift,12.239,12.8,11.8,13.8
+INS-00031,2025-01-25,Line A,M-102,P-400,Night,80,2,seal leak,12.688,12.8,11.8,13.8
+INS-00032,2025-02-03,Line A,M-102,P-200,Day,42,2,misalignment,12.825,12.8,11.8,13.8
+INS-00033,2025-02-06,Line A,M-102,P-300,Day,33,1,surface scratch,13.097,12.8,11.8,13.8
+INS-00034,2025-02-15,Line A,M-102,P-100,Night,91,2,dimensional drift,12.543,12.8,11.8,13.8
+INS-00035,2025-02-18,Line A,M-102,P-600,Night,92,4,contamination,12.699,12.8,11.8,13.8
+INS-00036,2025-02-21,Line A,M-102,P-600,Day,73,2,misalignment,12.846,12.8,11.8,13.8
+INS-00037,2025-02-24,Line A,M-102,P-200,Day,50,1,dimensional drift,12.931,12.8,11.8,13.8
+INS-00038,2025-03-02,Line A,M-102,P-600,Swing,67,0,surface scratch,13.402,12.8,11.8,13.8
+INS-00039,2025-03-08,Line A,M-102,P-600,Swing,54,2,misalignment,13.143,12.8,11.8,13.8
+INS-00040,2025-03-11,Line A,M-102,P-400,Night,92,4,misalignment,12.512,12.8,11.8,13.8
+INS-00041,2025-03-14,Line A,M-102,P-200,Night,45,1,dimensional drift,13.659,12.8,11.8,13.8
+INS-00042,2025-03-17,Line A,M-102,P-500,Night,41,0,contamination,12.565,12.8,11.8,13.8
+INS-00043,2025-03-20,Line A,M-102,P-500,Night,61,3,contamination,12.616,12.8,11.8,13.8
+INS-00044,2025-04-04,Line A,M-102,P-500,Night,38,0,surface scratch,13.026,12.8,11.8,13.8
+INS-00045,2025-04-13,Line A,M-102,P-100,Day,39,0,seal leak,13.065,12.8,11.8,13.8
+INS-00046,2025-04-19,Line A,M-102,P-200,Day,95,3,seal leak,12.629,12.8,11.8,13.8
+INS-00047,2025-04-22,Line A,M-102,P-200,Day,64,0,dimensional drift,12.701,12.8,11.8,13.8
+INS-00048,2025-04-28,Line A,M-102,P-200,Night,90,2,dimensional drift,12.498,12.8,11.8,13.8
+INS-00049,2025-01-01,Line B,M-103,P-500,Swing,65,4,contamination,12.758,13.1,12.1,14.1
+INS-00050,2025-01-07,Line B,M-103,P-500,Swing,32,1,dimensional drift,13.214,13.1,12.1,14.1
+INS-00051,2025-01-16,Line B,M-103,P-600,Night,34,2,surface scratch,13.144,13.1,12.1,14.1
+INS-00052,2025-01-19,Line B,M-103,P-200,Night,97,4,seal leak,13.024,13.1,12.1,14.1
+INS-00053,2025-01-22,Line B,M-103,P-400,Day,90,3,misalignment,13.203,13.1,12.1,14.1
+INS-00054,2025-01-25,Line B,M-103,P-100,Swing,53,3,misalignment,12.938,13.1,12.1,14.1
+INS-00055,2025-01-28,Line B,M-103,P-100,Swing,73,0,dimensional drift,13.092,13.1,12.1,14.1
+INS-00056,2025-02-03,Line B,M-103,P-500,Swing,26,0,seal leak,13.259,13.1,12.1,14.1
+INS-00057,2025-02-09,Line B,M-103,P-100,Night,57,2,seal leak,12.637,13.1,12.1,14.1
+INS-00058,2025-02-15,Line B,M-103,P-500,Night,29,1,misalignment,13.249,13.1,12.1,14.1
+INS-00059,2025-02-18,Line B,M-103,P-100,Swing,27,1,misalignment,13.124,13.1,12.1,14.1
+INS-00060,2025-02-21,Line B,M-103,P-300,Night,55,3,contamination,13.15,13.1,12.1,14.1
+INS-00061,2025-02-27,Line B,M-103,P-100,Night,35,2,contamination,13.377,13.1,12.1,14.1
+INS-00062,2025-03-05,Line B,M-103,P-100,Swing,34,1,surface scratch,13.006,13.1,12.1,14.1
+INS-00063,2025-03-08,Line B,M-103,P-300,Night,27,1,seal leak,13.151,13.1,12.1,14.1
+INS-00064,2025-03-14,Line B,M-103,P-600,Day,51,3,misalignment,13.009,13.1,12.1,14.1
+INS-00065,2025-03-17,Line B,M-103,P-200,Night,40,2,misalignment,13.493,13.1,12.1,14.1
+INS-00066,2025-04-01,Line B,M-103,P-400,Swing,83,3,misalignment,12.775,13.1,12.1,14.1
+INS-00067,2025-04-04,Line B,M-103,P-300,Night,92,3,misalignment,13.51,13.1,12.1,14.1
+INS-00068,2025-04-07,Line B,M-103,P-400,Night,62,3,contamination,13.164,13.1,12.1,14.1
+INS-00069,2025-04-13,Line B,M-103,P-300,Night,29,0,surface scratch,12.864,13.1,12.1,14.1
+INS-00070,2025-04-16,Line B,M-103,P-200,Swing,96,1,misalignment,12.935,13.1,12.1,14.1
+INS-00071,2025-04-25,Line B,M-103,P-500,Day,82,2,seal leak,13.137,13.1,12.1,14.1
+INS-00072,2025-01-01,Line C,M-201,P-400,Night,45,0,seal leak,12.442,12.5,11.5,13.5
+INS-00073,2025-01-10,Line C,M-201,P-300,Night,54,2,dimensional drift,12.53,12.5,11.5,13.5
+INS-00074,2025-01-13,Line C,M-201,P-300,Swing,40,0,contamination,12.704,12.5,11.5,13.5
+INS-00075,2025-01-19,Line C,M-201,P-100,Day,69,0,dimensional drift,12.03,12.5,11.5,13.5
+INS-00076,2025-01-28,Line C,M-201,P-100,Day,38,3,surface scratch,13.308,12.5,11.5,13.5
+INS-00077,2025-01-31,Line C,M-201,P-500,Swing,94,1,seal leak,12.269,12.5,11.5,13.5
+INS-00078,2025-02-03,Line C,M-201,P-100,Day,84,1,surface scratch,12.32,12.5,11.5,13.5
+INS-00079,2025-02-06,Line C,M-201,P-600,Night,72,3,dimensional drift,13.088,12.5,11.5,13.5
+INS-00080,2025-02-09,Line C,M-201,P-600,Night,34,2,misalignment,12.49,12.5,11.5,13.5
+INS-00081,2025-02-15,Line C,M-201,P-100,Night,82,2,contamination,12.776,12.5,11.5,13.5
+INS-00082,2025-02-24,Line C,M-201,P-100,Day,83,0,surface scratch,12.632,12.5,11.5,13.5
+INS-00083,2025-02-27,Line C,M-201,P-300,Night,79,3,misalignment,12.241,12.5,11.5,13.5
+INS-00084,2025-03-11,Line C,M-201,P-300,Night,31,1,surface scratch,12.587,12.5,11.5,13.5
+INS-00085,2025-03-14,Line C,M-201,P-100,Night,59,4,surface scratch,12.472,12.5,11.5,13.5
+INS-00086,2025-03-17,Line C,M-201,P-200,Day,93,4,surface scratch,12.51,12.5,11.5,13.5
+INS-00087,2025-03-20,Line C,M-201,P-500,Swing,96,2,surface scratch,12.519,12.5,11.5,13.5
+INS-00088,2025-03-23,Line C,M-201,P-400,Night,33,1,dimensional drift,12.546,12.5,11.5,13.5
+INS-00089,2025-03-29,Line C,M-201,P-100,Night,87,4,dimensional drift,12.031,12.5,11.5,13.5
+INS-00090,2025-04-04,Line C,M-201,P-100,Night,90,2,contamination,12.589,12.5,11.5,13.5
+INS-00091,2025-04-10,Line C,M-201,P-200,Night,92,3,misalignment,12.382,12.5,11.5,13.5
+INS-00092,2025-04-16,Line C,M-201,P-100,Swing,27,0,surface scratch,12.576,12.5,11.5,13.5
+INS-00093,2025-04-19,Line C,M-201,P-200,Swing,37,1,seal leak,12.382,12.5,11.5,13.5
+INS-00094,2025-04-22,Line C,M-201,P-400,Day,59,1,misalignment,12.347,12.5,11.5,13.5
+INS-00095,2025-04-25,Line C,M-201,P-500,Night,49,2,surface scratch,12.243,12.5,11.5,13.5
+INS-00096,2025-01-01,Line C,M-202,P-200,Night,80,3,surface scratch,12.711,12.8,11.8,13.8
+INS-00097,2025-01-07,Line C,M-202,P-400,Day,42,0,misalignment,12.99,12.8,11.8,13.8
+INS-00098,2025-01-19,Line C,M-202,P-200,Swing,91,1,misalignment,13.019,12.8,11.8,13.8
+INS-00099,2025-01-22,Line C,M-202,P-100,Night,47,2,misalignment,12.863,12.8,11.8,13.8
+INS-00100,2025-01-25,Line C,M-202,P-500,Night,66,3,seal leak,13.024,12.8,11.8,13.8
+INS-00101,2025-01-31,Line C,M-202,P-500,Day,67,2,contamination,12.723,12.8,11.8,13.8
+INS-00102,2025-02-06,Line C,M-202,P-400,Night,42,2,misalignment,13.442,12.8,11.8,13.8
+INS-00103,2025-02-09,Line C,M-202,P-100,Swing,35,0,surface scratch,12.588,12.8,11.8,13.8
+INS-00104,2025-02-15,Line C,M-202,P-500,Night,54,3,contamination,12.743,12.8,11.8,13.8
+INS-00105,2025-02-21,Line C,M-202,P-100,Swing,45,2,contamination,12.653,12.8,11.8,13.8
+INS-00106,2025-02-27,Line C,M-202,P-500,Day,49,0,misalignment,12.978,12.8,11.8,13.8
+INS-00107,2025-03-02,Line C,M-202,P-500,Night,38,3,surface scratch,12.987,12.8,11.8,13.8
+INS-00108,2025-03-08,Line C,M-202,P-400,Swing,27,0,seal leak,12.475,12.8,11.8,13.8
+INS-00109,2025-03-17,Line C,M-202,P-400,Night,26,2,contamination,12.974,12.8,11.8,13.8
+INS-00110,2025-03-20,Line C,M-202,P-500,Night,65,2,dimensional drift,12.854,12.8,11.8,13.8
+INS-00111,2025-03-23,Line C,M-202,P-300,Night,64,4,surface scratch,13.127,12.8,11.8,13.8
+INS-00112,2025-04-04,Line C,M-202,P-200,Night,62,3,contamination,12.728,12.8,11.8,13.8
+INS-00113,2025-04-07,Line C,M-202,P-100,Swing,43,1,misalignment,12.694,12.8,11.8,13.8
+INS-00114,2025-04-13,Line C,M-202,P-600,Night,92,2,dimensional drift,12.832,12.8,11.8,13.8
+INS-00115,2025-04-22,Line C,M-202,P-100,Day,29,0,seal leak,12.387,12.8,11.8,13.8
+INS-00116,2025-04-25,Line C,M-202,P-600,Swing,51,1,dimensional drift,12.632,12.8,11.8,13.8
+INS-00117,2025-04-28,Line C,M-202,P-200,Day,51,0,surface scratch,12.994,12.8,11.8,13.8
+INS-00118,2025-01-01,Line D,M-203,P-400,Day,49,2,surface scratch,12.995,13.1,12.1,14.1
+INS-00119,2025-01-13,Line D,M-203,P-100,Night,57,0,misalignment,12.643,13.1,12.1,14.1
+INS-00120,2025-01-16,Line D,M-203,P-400,Day,70,0,contamination,13.563,13.1,12.1,14.1
+INS-00121,2025-01-22,Line D,M-203,P-100,Swing,48,2,misalignment,13.556,13.1,12.1,14.1
+INS-00122,2025-01-25,Line D,M-203,P-300,Swing,80,1,contamination,13.092,13.1,12.1,14.1
+INS-00123,2025-01-31,Line D,M-203,P-100,Day,72,0,seal leak,12.986,13.1,12.1,14.1
+INS-00124,2025-02-09,Line D,M-203,P-300,Swing,34,1,seal leak,13.008,13.1,12.1,14.1
+INS-00125,2025-02-24,Line D,M-203,P-200,Night,93,2,contamination,13.158,13.1,12.1,14.1
+INS-00126,2025-03-02,Line D,M-203,P-600,Night,29,0,seal leak,13.502,13.1,12.1,14.1
+INS-00127,2025-03-08,Line D,M-203,P-100,Night,94,2,dimensional drift,12.943,13.1,12.1,14.1
+INS-00128,2025-03-11,Line D,M-203,P-600,Swing,54,0,misalignment,13.357,13.1,12.1,14.1
+INS-00129,2025-03-20,Line D,M-203,P-300,Night,39,0,surface scratch,12.984,13.1,12.1,14.1
+INS-00130,2025-03-29,Line D,M-203,P-500,Swing,52,0,misalignment,13.131,13.1,12.1,14.1
+INS-00131,2025-04-04,Line D,M-203,P-400,Swing,54,2,dimensional drift,12.577,13.1,12.1,14.1
+INS-00132,2025-04-07,Line D,M-203,P-200,Day,88,1,surface scratch,12.608,13.1,12.1,14.1
+INS-00133,2025-04-10,Line D,M-203,P-100,Day,95,1,surface scratch,13.261,13.1,12.1,14.1
+INS-00134,2025-04-22,Line D,M-203,P-200,Night,62,0,misalignment,13.243,13.1,12.1,14.1
+INS-00135,2025-04-28,Line D,M-203,P-300,Swing,75,0,misalignment,12.934,13.1,12.1,14.1
+INS-00136,2025-01-01,Line E,M-301,P-200,Day,83,2,surface scratch,12.479,12.5,11.5,13.5
+INS-00137,2025-01-10,Line E,M-301,P-500,Swing,38,0,dimensional drift,12.709,12.5,11.5,13.5
+INS-00138,2025-01-13,Line E,M-301,P-600,Swing,76,4,seal leak,12.683,12.5,11.5,13.5
+INS-00139,2025-01-25,Line E,M-301,P-400,Day,56,3,seal leak,12.892,12.5,11.5,13.5
+INS-00140,2025-01-31,Line E,M-301,P-600,Day,99,2,misalignment,12.577,12.5,11.5,13.5
+INS-00141,2025-02-06,Line E,M-301,P-300,Swing,26,0,surface scratch,12.734,12.5,11.5,13.5
+INS-00142,2025-02-09,Line E,M-301,P-500,Day,60,0,surface scratch,12.683,12.5,11.5,13.5
+INS-00143,2025-02-15,Line E,M-301,P-200,Swing,33,1,surface scratch,12.304,12.5,11.5,13.5
+INS-00144,2025-02-21,Line E,M-301,P-600,Swing,68,3,surface scratch,12.358,12.5,11.5,13.5
+INS-00145,2025-03-02,Line E,M-301,P-500,Day,51,3,dimensional drift,12.156,12.5,11.5,13.5
+INS-00146,2025-03-05,Line E,M-301,P-200,Swing,95,1,dimensional drift,12.562,12.5,11.5,13.5
+INS-00147,2025-03-08,Line E,M-301,P-300,Day,69,3,contamination,12.384,12.5,11.5,13.5
+INS-00148,2025-03-11,Line E,M-301,P-100,Night,36,1,seal leak,12.533,12.5,11.5,13.5
+INS-00149,2025-03-17,Line E,M-301,P-600,Night,65,4,misalignment,12.738,12.5,11.5,13.5
+INS-00150,2025-03-23,Line E,M-301,P-300,Day,69,2,misalignment,13.225,12.5,11.5,13.5
+INS-00151,2025-03-29,Line E,M-301,P-600,Night,62,4,dimensional drift,12.842,12.5,11.5,13.5
+INS-00152,2025-04-07,Line E,M-301,P-600,Day,59,2,dimensional drift,12.581,12.5,11.5,13.5
+INS-00153,2025-04-10,Line E,M-301,P-500,Night,61,3,dimensional drift,12.761,12.5,11.5,13.5
+INS-00154,2025-04-13,Line E,M-301,P-100,Day,36,1,contamination,12.39,12.5,11.5,13.5
+INS-00155,2025-04-19,Line E,M-301,P-500,Day,84,3,misalignment,12.648,12.5,11.5,13.5
+INS-00156,2025-04-25,Line E,M-301,P-100,Day,25,1,dimensional drift,12.325,12.5,11.5,13.5
+INS-00157,2025-01-01,Line E,M-302,P-400,Night,47,1,seal leak,12.962,12.8,11.8,13.8
+INS-00158,2025-01-07,Line E,M-302,P-100,Swing,39,0,seal leak,13.136,12.8,11.8,13.8
+INS-00159,2025-01-13,Line E,M-302,P-200,Night,71,3,seal leak,12.76,12.8,11.8,13.8
+INS-00160,2025-01-16,Line E,M-302,P-100,Swing,43,1,seal leak,12.822,12.8,11.8,13.8
+INS-00161,2025-01-22,Line E,M-302,P-400,Day,30,1,dimensional drift,12.676,12.8,11.8,13.8
+INS-00162,2025-01-25,Line E,M-302,P-600,Night,75,6,surface scratch,12.5,12.8,11.8,13.8
+INS-00163,2025-01-31,Line E,M-302,P-400,Night,51,0,contamination,12.799,12.8,11.8,13.8
+INS-00164,2025-02-03,Line E,M-302,P-500,Day,51,1,contamination,12.961,12.8,11.8,13.8
+INS-00165,2025-02-15,Line E,M-302,P-400,Swing,54,1,dimensional drift,12.029,12.8,11.8,13.8
+INS-00166,2025-02-18,Line E,M-302,P-300,Swing,97,1,seal leak,12.727,12.8,11.8,13.8
+INS-00167,2025-02-21,Line E,M-302,P-300,Swing,27,1,misalignment,13.096,12.8,11.8,13.8
+INS-00168,2025-02-24,Line E,M-302,P-500,Day,53,1,surface scratch,12.513,12.8,11.8,13.8
+INS-00169,2025-02-27,Line E,M-302,P-400,Day,59,1,misalignment,12.747,12.8,11.8,13.8
+INS-00170,2025-03-02,Line E,M-302,P-300,Night,92,3,surface scratch,12.858,12.8,11.8,13.8
+INS-00171,2025-03-05,Line E,M-302,P-400,Night,76,1,surface scratch,12.984,12.8,11.8,13.8
+INS-00172,2025-03-11,Line E,M-302,P-100,Day,37,0,contamination,12.805,12.8,11.8,13.8
+INS-00173,2025-03-26,Line E,M-302,P-400,Night,65,4,contamination,12.433,12.8,11.8,13.8
+INS-00174,2025-03-29,Line E,M-302,P-200,Swing,97,2,surface scratch,12.425,12.8,11.8,13.8
+INS-00175,2025-04-01,Line E,M-302,P-500,Swing,49,3,seal leak,12.951,12.8,11.8,13.8
+INS-00176,2025-04-04,Line E,M-302,P-400,Day,48,1,misalignment,12.47,12.8,11.8,13.8
+INS-00177,2025-04-07,Line E,M-302,P-400,Day,91,3,dimensional drift,12.464,12.8,11.8,13.8
+INS-00178,2025-04-13,Line E,M-302,P-600,Night,59,2,surface scratch,12.688,12.8,11.8,13.8
+INS-00179,2025-04-16,Line E,M-302,P-200,Night,37,0,dimensional drift,12.705,12.8,11.8,13.8
+INS-00180,2025-04-22,Line E,M-302,P-300,Night,64,3,surface scratch,12.935,12.8,11.8,13.8
+INS-00181,2025-04-25,Line E,M-302,P-100,Night,71,2,misalignment,12.544,12.8,11.8,13.8
+INS-00182,2025-04-28,Line E,M-302,P-100,Night,34,2,misalignment,12.941,12.8,11.8,13.8
