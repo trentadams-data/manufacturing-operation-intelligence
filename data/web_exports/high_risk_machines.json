@@ -1,0 +1,82 @@
+[
+  {
+    "machine_id": "M-302",
+    "avg_risk_probability": 0.872,
+    "latest_runtime_hours": 254.0,
+    "avg_vibration": 2.404,
+    "avg_temperature": 66.963,
+    "criticality": "Medium",
+    "machine_age_years": 9.147,
+    "risk_tier": "High"
+  },
+  {
+    "machine_id": "M-202",
+    "avg_risk_probability": 0.799,
+    "latest_runtime_hours": 308.2,
+    "avg_vibration": 2.673,
+    "avg_temperature": 72.032,
+    "criticality": "High",
+    "machine_age_years": 15.146,
+    "risk_tier": "High"
+  },
+  {
+    "machine_id": "M-103",
+    "avg_risk_probability": 0.787,
+    "latest_runtime_hours": 263.8,
+    "avg_vibration": 2.359,
+    "avg_temperature": 67.518,
+    "criticality": "High",
+    "machine_age_years": 10.146,
+    "risk_tier": "High"
+  },
+  {
+    "machine_id": "M-201",
+    "avg_risk_probability": 0.644,
+    "latest_runtime_hours": 236.5,
+    "avg_vibration": 2.26,
+    "avg_temperature": 64.706,
+    "criticality": "Medium",
+    "machine_age_years": 7.146,
+    "risk_tier": "Medium"
+  },
+  {
+    "machine_id": "M-102",
+    "avg_risk_probability": 0.514,
+    "latest_runtime_hours": 245.8,
+    "avg_vibration": 2.238,
+    "avg_temperature": 65.814,
+    "criticality": "Medium",
+    "machine_age_years": 8.145,
+    "risk_tier": "Medium"
+  },
+  {
+    "machine_id": "M-101",
+    "avg_risk_probability": 0.476,
+    "latest_runtime_hours": 290.5,
+    "avg_vibration": 2.615,
+    "avg_temperature": 70.208,
+    "criticality": "High",
+    "machine_age_years": 13.147,
+    "risk_tier": "Medium"
+  },
+  {
+    "machine_id": "M-203",
+    "avg_risk_probability": 0.448,
+    "latest_runtime_hours": 227.5,
+    "avg_vibration": 2.199,
+    "avg_temperature": 63.669,
+    "criticality": "Low",
+    "machine_age_years": 6.146,
+    "risk_tier": "Medium"
+  },
+  {
+    "machine_id": "M-301",
+    "avg_risk_probability": 0.42,
+    "latest_runtime_hours": 272.2,
+    "avg_vibration": 2.444,
+    "avg_temperature": 67.386,
+    "criticality": "High",
+    "machine_age_years": 11.146,
+    "risk_tier": "Medium"
+  }
+]

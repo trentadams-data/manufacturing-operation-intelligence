@@ -1,0 +1,46 @@
+{
+  "finding_count": 5,
+  "high_priority_count": 5,
+  "findings": [
+    {
+      "finding": "M-202 has the lowest OEE in the plant (83.5%)",
+      "likely_driver": "Availability loss from unplanned stops and below-target performance",
+      "business_impact": "Reduced effective capacity and higher unit cost on this asset",
+      "recommended_action": "Prioritise this machine for a focused OEE improvement review (setup reduction, minor-stop elimination)",
+      "priority": "High",
+      "affected_area": "Line  / M-202"
+    },
+    {
+      "finding": "Unplanned downtime accounts for 66% of all downtime; 'power fluctuation' is the largest reason",
+      "likely_driver": "Recurring 'power fluctuation' events, concentrated on M-202",
+      "business_impact": "~72 operating hours lost to unplanned stops",
+      "recommended_action": "Launch a Pareto-led downtime reduction effort on the top reason and condition-monitor the worst machine",
+      "priority": "High",
+      "affected_area": "M-202"
+    },
+    {
+      "finding": "Line B has the highest defect rate; 'misalignment' is the most common defect",
+      "likely_driver": "Process variation and shift-related quality differences",
+      "business_impact": "~$210,428 estimated scrap and rework margin loss",
+      "recommended_action": "Stand up a containment and corrective-action plan for the top defect type on the worst line",
+      "priority": "High",
+      "affected_area": "Line B"
+    },
+    {
+      "finding": "7 process(es) below Cpk 1.33; M-102 is the least capable",
+      "likely_driver": "Excess common-cause variation relative to the spec window",
+      "business_impact": "0 inspection point(s) outside specification raise escape and rework risk",
+      "recommended_action": "Centre and tighten the lowest-capability process; investigate any out-of-control points for special causes",
+      "priority": "High",
+      "affected_area": "M-102"
+    },
+    {
+      "finding": "M-302 carries the highest predicted failure risk (87%) over the next 7 days",
+      "likely_driver": "Elevated vibration/temperature trend, machine age, and recent event history",
+      "business_impact": "High likelihood of an unplanned stop and reactive repair cost",
+      "recommended_action": "Schedule a proactive inspection on M-302 and review the Random Forest watchlist weekly (recall 0.86)",
+      "priority": "High",
+      "affected_area": "M-302"
+    }
+  ]
+}

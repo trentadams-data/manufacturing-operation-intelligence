@@ -1,0 +1,10 @@
+feature,importance
+runtime_hours,0.2474
+machine_age_years,0.2029
+roll_temp_7,0.1349
+roll_pressure_7,0.1216
+roll_vibration_7,0.1079
+alarm_count_7,0.1015
+downtime_events_7,0.0562
+criticality_code,0.0155
+maintenance_count_30,0.0121

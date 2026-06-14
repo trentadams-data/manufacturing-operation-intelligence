@@ -1,0 +1,1094 @@
+{
+  "project": {
+    "title": "Manufacturing Operations Intelligence",
+    "subtitle": "OEE, Downtime, Quality, and Predictive Maintenance Analytics",
+    "description": "An end-to-end manufacturing operations analytics case study that turns production, maintenance, quality, and sensor data into OEE, downtime, quality, SPC, and predictive-maintenance insight, with prioritised, business-ready recommendations.",
+    "tools": [
+      "Python",
+      "Pandas",
+      "Scikit-learn",
+      "Matplotlib",
+      "SPC",
+      "Machine Learning"
+    ],
+    "data_type": "Synthetic manufacturing operations data"
+  },
+  "executive_kpis": [
+    {
+      "key": "plant_oee",
+      "label": "Plant OEE",
+      "value": 0.8531,
+      "format": "percent",
+      "display": "85.3%",
+      "context": "Availability x Performance x Quality across the plant."
+    },
+    {
+      "key": "first_pass_yield",
+      "label": "First Pass Yield",
+      "value": 0.9639,
+      "format": "percent",
+      "display": "96.4%",
+      "context": "Units acceptable on the first attempt."
+    },
+    {
+      "key": "schedule_attainment",
+      "label": "Schedule Attainment",
+      "value": 0.8851,
+      "format": "percent",
+      "display": "88.5%",
+      "context": "Actual output against planned volume."
+    },
+    {
+      "key": "units_produced",
+      "label": "Units Produced",
+      "value": 729397.4,
+      "format": "number",
+      "display": "729,397",
+      "context": "Total units produced over the analysis window."
+    },
+    {
+      "key": "scrap_rate",
+      "label": "Scrap Rate",
+      "value": 0.0217,
+      "format": "percent",
+      "display": "2.2%",
+      "context": "Scrapped units as a share of output."
+    },
+    {
+      "key": "unplanned_downtime_share",
+      "label": "Unplanned Downtime",
+      "value": 66.46,
+      "format": "percent_pts",
+      "display": "66.5%",
+      "context": "Share of all downtime that was unplanned."
+    },
+    {
+      "key": "cost_of_poor_quality",
+      "label": "Cost of Poor Quality",
+      "value": 263987.91000000003,
+      "format": "currency",
+      "display": "$263,988",
+      "context": "Estimated scrap and rework margin loss."
+    },
+    {
+      "key": "high_risk_machines",
+      "label": "High-Risk Machines",
+      "value": 3,
+      "format": "count",
+      "display": "3",
+      "context": "Machines flagged high risk by the maintenance model."
+    }
+  ],
+  "dataset_profile": {
+    "data_source": "synthetic",
+    "data_through": "2025-06-30",
+    "date_range": {
+      "start": "2025-01-01",
+      "end": "2025-06-30"
+    },
+    "plants": 3,
+    "plant_names": [
+      "North Plant",
+      "South Plant",
+      "West Plant"
+    ],
+    "production_lines": 5,
+    "production_line_names": [
+      "Line A",
+      "Line B",
+      "Line C",
+      "Line D",
+      "Line E"
+    ],
+    "machines": 8,
+    "products": 6,
+    "shifts": [
+      "Day",
+      "Swing",
+      "Night"
+    ],
+    "record_counts": {
+      "production_runs": 1448,
+      "machine_events": 264,
+      "maintenance_logs": 31,
+      "quality_inspections": 182,
+      "sensor_readings": 1256
+    },
+    "note": "Dataset is synthetic and created for portfolio demonstration purposes."
+  },
+  "oee": {
+    "plant_total": {
+      "runs": 1448,
+      "availability": 0.901,
+      "performance": 0.9823,
+      "quality": 0.9639,
+      "oee": 0.8531
+    },
+    "by_line": [
+      {
+        "production_line": "Line D",
+        "runs": 181,
+        "availability": 0.8983,
+        "performance": 1.0,
+        "quality": 0.9671,
+        "oee": 0.8688
+      },
+      {
+        "production_line": "Line A",
+        "runs": 362,
+        "availability": 0.9004,
+        "performance": 0.982,
+        "quality": 0.9635,
+        "oee": 0.8519
+      },
+      {
+        "production_line": "Line C",
+        "runs": 362,
+        "availability": 0.9015,
+        "performance": 0.9801,
+        "quality": 0.9637,
+        "oee": 0.8515
+      },
+      {
+        "production_line": "Line E",
+        "runs": 362,
+        "availability": 0.9012,
+        "performance": 0.9797,
+        "quality": 0.9635,
+        "oee": 0.8508
+      },
+      {
+        "production_line": "Line B",
+        "runs": 181,
+        "availability": 0.9036,
+        "performance": 0.97,
+        "quality": 0.962,
+        "oee": 0.8432
+      }
+    ],
+    "by_machine": [
+      {
+        "machine_id": "M-203",
+        "runs": 181,
+        "availability": 0.8983,
+        "performance": 1.0,
+        "quality": 0.9671,
+        "oee": 0.8688
+      },
+      {
+        "machine_id": "M-201",
+        "runs": 181,
+        "availability": 0.8997,
+        "performance": 0.9981,
+        "quality": 0.9665,
+        "oee": 0.8679
+      },
+      {
+        "machine_id": "M-102",
+        "runs": 181,
+        "availability": 0.897,
+        "performance": 0.9998,
+        "quality": 0.9659,
+        "oee": 0.8663
+      },
+      {
+        "machine_id": "M-302",
+        "runs": 181,
+        "availability": 0.9022,
+        "performance": 0.9888,
+        "quality": 0.9655,
+        "oee": 0.8614
+      },
+      {
+        "machine_id": "M-103",
+        "runs": 181,
+        "availability": 0.9036,
+        "performance": 0.97,
+        "quality": 0.962,
+        "oee": 0.8432
+      },
+      {
+        "machine_id": "M-301",
+        "runs": 181,
+        "availability": 0.9002,
+        "performance": 0.9708,
+        "quality": 0.9616,
+        "oee": 0.8404
+      },
+      {
+        "machine_id": "M-101",
+        "runs": 181,
+        "availability": 0.9036,
+        "performance": 0.9646,
+        "quality": 0.9611,
+        "oee": 0.8377
+      },
+      {
+        "machine_id": "M-202",
+        "runs": 181,
+        "availability": 0.9032,
+        "performance": 0.9626,
+        "quality": 0.9609,
+        "oee": 0.8354
+      }
+    ],
+    "by_shift": [
+      {
+        "shift": "Day",
+        "runs": 605,
+        "availability": 0.9006,
+        "performance": 1.0,
+        "quality": 0.9647,
+        "oee": 0.8688
+      },
+      {
+        "shift": "Swing",
+        "runs": 509,
+        "availability": 0.9026,
+        "performance": 0.9697,
+        "quality": 0.9649,
+        "oee": 0.8445
+      },
+      {
+        "shift": "Night",
+        "runs": 334,
+        "availability": 0.8991,
+        "performance": 0.9528,
+        "quality": 0.9607,
+        "oee": 0.823
+      }
+    ],
+    "worst_line": "Line B",
+    "best_line": "Line D",
+    "worst_machine": "M-202"
+  },
+  "downtime": {
+    "total_downtime_minutes": 6518.7,
+    "total_downtime_hours": 108.6,
+    "planned_minutes": 2186.4,
+    "unplanned_minutes": 4332.3,
+    "unplanned_share_pct": 66.46,
+    "events": 264,
+    "by_reason": [
+      {
+        "downtime_reason": "power fluctuation",
+        "downtime_minutes": 824.6,
+        "events": 34,
+        "avg_minutes_per_event": 24.3,
+        "share_pct": 12.65,
+        "cumulative_pct": 12.65
+      },
+      {
+        "downtime_reason": "overheat",
+        "downtime_minutes": 780.4,
+        "events": 32,
+        "avg_minutes_per_event": 24.4,
+        "share_pct": 11.97,
+        "cumulative_pct": 24.62
+      },
+      {
+        "downtime_reason": "bearing fault",
+        "downtime_minutes": 772.5,
+        "events": 31,
+        "avg_minutes_per_event": 24.9,
+        "share_pct": 11.85,
+        "cumulative_pct": 36.47
+      },
+      {
+        "downtime_reason": "belt wear",
+        "downtime_minutes": 750.5,
+        "events": 28,
+        "avg_minutes_per_event": 26.8,
+        "share_pct": 11.51,
+        "cumulative_pct": 47.98
+      },
+      {
+        "downtime_reason": "sensor drift",
+        "downtime_minutes": 634.3,
+        "events": 25,
+        "avg_minutes_per_event": 25.4,
+        "share_pct": 9.73,
+        "cumulative_pct": 57.71
+      },
+      {
+        "downtime_reason": "scheduled inspection",
+        "downtime_minutes": 632.9,
+        "events": 25,
+        "avg_minutes_per_event": 25.3,
+        "share_pct": 9.71,
+        "cumulative_pct": 67.42
+      },
+      {
+        "downtime_reason": "lubrication issue",
+        "downtime_minutes": 570.0,
+        "events": 24,
+        "avg_minutes_per_event": 23.8,
+        "share_pct": 8.74,
+        "cumulative_pct": 76.16
+      },
+      {
+        "downtime_reason": "planned maintenance",
+        "downtime_minutes": 557.6,
+        "events": 23,
+        "avg_minutes_per_event": 24.2,
+        "share_pct": 8.55,
+        "cumulative_pct": 84.71
+      },
+      {
+        "downtime_reason": "tool change",
+        "downtime_minutes": 504.3,
+        "events": 20,
+        "avg_minutes_per_event": 25.2,
+        "share_pct": 7.74,
+        "cumulative_pct": 92.45
+      },
+      {
+        "downtime_reason": "calibration",
+        "downtime_minutes": 491.6,
+        "events": 22,
+        "avg_minutes_per_event": 22.3,
+        "share_pct": 7.54,
+        "cumulative_pct": 99.99
+      }
+    ],
+    "by_machine": [
+      {
+        "machine_id": "M-202",
+        "downtime_minutes": 1182.1,
+        "events": 36,
+        "avg_minutes_per_event": 32.8
+      },
+      {
+        "machine_id": "M-301",
+        "downtime_minutes": 927.5,
+        "events": 33,
+        "avg_minutes_per_event": 28.1
+      },
+      {
+        "machine_id": "M-101",
+        "downtime_minutes": 904.9,
+        "events": 36,
+        "avg_minutes_per_event": 25.1
+      },
+      {
+        "machine_id": "M-103",
+        "downtime_minutes": 798.1,
+        "events": 33,
+        "avg_minutes_per_event": 24.2
+      },
+      {
+        "machine_id": "M-102",
+        "downtime_minutes": 739.0,
+        "events": 35,
+        "avg_minutes_per_event": 21.1
+      },
+      {
+        "machine_id": "M-302",
+        "downtime_minutes": 727.1,
+        "events": 29,
+        "avg_minutes_per_event": 25.1
+      },
+      {
+        "machine_id": "M-201",
+        "downtime_minutes": 651.8,
+        "events": 32,
+        "avg_minutes_per_event": 20.4
+      },
+      {
+        "machine_id": "M-203",
+        "downtime_minutes": 588.2,
+        "events": 30,
+        "avg_minutes_per_event": 19.6
+      }
+    ],
+    "by_line": [
+      {
+        "production_line": "Line C",
+        "downtime_minutes": 1833.9,
+        "events": 68,
+        "avg_minutes_per_event": 27.0
+      },
+      {
+        "production_line": "Line E",
+        "downtime_minutes": 1654.6,
+        "events": 62,
+        "avg_minutes_per_event": 26.7
+      },
+      {
+        "production_line": "Line A",
+        "downtime_minutes": 1643.9,
+        "events": 71,
+        "avg_minutes_per_event": 23.2
+      },
+      {
+        "production_line": "Line B",
+        "downtime_minutes": 798.1,
+        "events": 33,
+        "avg_minutes_per_event": 24.2
+      },
+      {
+        "production_line": "Line D",
+        "downtime_minutes": 588.2,
+        "events": 30,
+        "avg_minutes_per_event": 19.6
+      }
+    ],
+    "by_shift": [
+      {
+        "shift": "Day",
+        "downtime_minutes": 2276.2,
+        "events": 90,
+        "avg_minutes_per_event": 25.3
+      },
+      {
+        "shift": "Night",
+        "downtime_minutes": 2163.3,
+        "events": 95,
+        "avg_minutes_per_event": 22.8
+      },
+      {
+        "shift": "Swing",
+        "downtime_minutes": 2079.2,
+        "events": 79,
+        "avg_minutes_per_event": 26.3
+      }
+    ],
+    "top_recurring_issues": [
+      {
+        "downtime_reason": "power fluctuation",
+        "events": 34,
+        "downtime_minutes": 824.6
+      },
+      {
+        "downtime_reason": "overheat",
+        "events": 32,
+        "downtime_minutes": 780.4
+      },
+      {
+        "downtime_reason": "bearing fault",
+        "events": 31,
+        "downtime_minutes": 772.5
+      },
+      {
+        "downtime_reason": "belt wear",
+        "events": 28,
+        "downtime_minutes": 750.5
+      },
+      {
+        "downtime_reason": "scheduled inspection",
+        "events": 25,
+        "downtime_minutes": 632.9
+      }
+    ],
+    "worst_reason": "power fluctuation",
+    "worst_machine": "M-202"
+  },
+  "quality": {
+    "overall_defect_rate": 0.028,
+    "total_inspected_units": 10935,
+    "total_defects": 306,
+    "by_line": [
+      {
+        "production_line": "Line B",
+        "inspections": 23,
+        "sample_size": 1269,
+        "defect_count": 45,
+        "defect_rate": 0.0355
+      },
+      {
+        "production_line": "Line E",
+        "inspections": 47,
+        "sample_size": 2768,
+        "defect_count": 87,
+        "defect_rate": 0.0314
+      },
+      {
+        "production_line": "Line C",
+        "inspections": 46,
+        "sample_size": 2693,
+        "defect_count": 78,
+        "defect_rate": 0.029
+      },
+      {
+        "production_line": "Line A",
+        "inspections": 48,
+        "sample_size": 3060,
+        "defect_count": 82,
+        "defect_rate": 0.0268
+      },
+      {
+        "production_line": "Line D",
+        "inspections": 18,
+        "sample_size": 1145,
+        "defect_count": 14,
+        "defect_rate": 0.0122
+      }
+    ],
+    "by_machine": [
+      {
+        "machine_id": "M-103",
+        "inspections": 23,
+        "sample_size": 1269,
+        "defect_count": 45,
+        "defect_rate": 0.0355
+      },
+      {
+        "machine_id": "M-301",
+        "inspections": 21,
+        "sample_size": 1251,
+        "defect_count": 43,
+        "defect_rate": 0.0344
+      },
+      {
+        "machine_id": "M-202",
+        "inspections": 22,
+        "sample_size": 1166,
+        "defect_count": 36,
+        "defect_rate": 0.0309
+      },
+      {
+        "machine_id": "M-101",
+        "inspections": 26,
+        "sample_size": 1624,
+        "defect_count": 50,
+        "defect_rate": 0.0308
+      },
+      {
+        "machine_id": "M-302",
+        "inspections": 26,
+        "sample_size": 1517,
+        "defect_count": 44,
+        "defect_rate": 0.029
+      },
+      {
+        "machine_id": "M-201",
+        "inspections": 24,
+        "sample_size": 1527,
+        "defect_count": 42,
+        "defect_rate": 0.0275
+      },
+      {
+        "machine_id": "M-102",
+        "inspections": 22,
+        "sample_size": 1436,
+        "defect_count": 32,
+        "defect_rate": 0.0223
+      },
+      {
+        "machine_id": "M-203",
+        "inspections": 18,
+        "sample_size": 1145,
+        "defect_count": 14,
+        "defect_rate": 0.0122
+      }
+    ],
+    "by_product_family": [
+      {
+        "product_family": "Electronics",
+        "inspections": 55,
+        "sample_size": 3135,
+        "defect_count": 95,
+        "defect_rate": 0.0303
+      },
+      {
+        "product_family": "Powertrain",
+        "inspections": 66,
+        "sample_size": 3931,
+        "defect_count": 115,
+        "defect_rate": 0.0293
+      },
+      {
+        "product_family": "Fluid",
+        "inspections": 31,
+        "sample_size": 1773,
+        "defect_count": 48,
+        "defect_rate": 0.0271
+      },
+      {
+        "product_family": "Structural",
+        "inspections": 30,
+        "sample_size": 2096,
+        "defect_count": 48,
+        "defect_rate": 0.0229
+      }
+    ],
+    "by_shift": [
+      {
+        "shift": "Night",
+        "inspections": 73,
+        "sample_size": 4401,
+        "defect_count": 156,
+        "defect_rate": 0.0354
+      },
+      {
+        "shift": "Day",
+        "inspections": 53,
+        "sample_size": 3356,
+        "defect_count": 78,
+        "defect_rate": 0.0232
+      },
+      {
+        "shift": "Swing",
+        "inspections": 56,
+        "sample_size": 3178,
+        "defect_count": 72,
+        "defect_rate": 0.0227
+      }
+    ],
+    "top_defect_types": [
+      {
+        "defect_type": "misalignment",
+        "occurrences": 44,
+        "defect_count": 73,
+        "share_pct": 23.86
+      },
+      {
+        "defect_type": "contamination",
+        "occurrences": 31,
+        "defect_count": 64,
+        "share_pct": 20.92
+      },
+      {
+        "defect_type": "surface scratch",
+        "occurrences": 39,
+        "defect_count": 62,
+        "share_pct": 20.26
+      },
+      {
+        "defect_type": "dimensional drift",
+        "occurrences": 35,
+        "defect_count": 55,
+        "share_pct": 17.97
+      },
+      {
+        "defect_type": "seal leak",
+        "occurrences": 33,
+        "defect_count": 52,
+        "share_pct": 16.99
+      }
+    ],
+    "estimated_scrap_impact": 175356.5,
+    "estimated_rework_impact": 35071.3,
+    "estimated_total_quality_impact": 210427.81,
+    "worst_line": "Line B",
+    "worst_machine": "M-103",
+    "top_defect_type": "misalignment"
+  },
+  "spc": {
+    "process_count": 8,
+    "avg_cpk": 1.199,
+    "min_cpk": 1.074,
+    "processes_below_cpk_1_33": 7,
+    "processes_below_cpk_1_0": 0,
+    "total_points_out_of_control": 0,
+    "total_points_out_of_spec": 0,
+    "lowest_capability_machine": "M-102",
+    "by_machine": [
+      {
+        "machine_id": "M-102",
+        "points": 22,
+        "mean": 12.7883,
+        "std_dev": 0.3067,
+        "centerline": 12.7883,
+        "ucl": 13.7083,
+        "lcl": 11.8684,
+        "target": 12.8,
+        "lsl": 11.8,
+        "usl": 13.8,
+        "points_out_of_control": 0,
+        "points_out_of_spec": 0,
+        "cp": 1.087,
+        "cpk": 1.074
+      },
+      {
+        "machine_id": "M-201",
+        "points": 24,
+        "mean": 12.5006,
+        "std_dev": 0.3019,
+        "centerline": 12.5006,
+        "ucl": 13.4063,
+        "lcl": 11.5948,
+        "target": 12.5,
+        "lsl": 11.5,
+        "usl": 13.5,
+        "points_out_of_control": 0,
+        "points_out_of_spec": 0,
+        "cp": 1.104,
+        "cpk": 1.103
+      },
+      {
+        "machine_id": "M-101",
+        "points": 26,
+        "mean": 12.4399,
+        "std_dev": 0.2748,
+        "centerline": 12.4399,
+        "ucl": 13.2642,
+        "lcl": 11.6157,
+        "target": 12.5,
+        "lsl": 11.5,
+        "usl": 13.5,
+        "points_out_of_control": 0,
+        "points_out_of_spec": 0,
+        "cp": 1.213,
+        "cpk": 1.14
+      },
+      {
+        "machine_id": "M-203",
+        "points": 18,
+        "mean": 13.0856,
+        "std_dev": 0.2828,
+        "centerline": 13.0856,
+        "ucl": 13.934,
+        "lcl": 12.2372,
+        "target": 13.1,
+        "lsl": 12.1,
+        "usl": 14.1,
+        "points_out_of_control": 0,
+        "points_out_of_spec": 0,
+        "cp": 1.179,
+        "cpk": 1.162
+      },
+      {
+        "machine_id": "M-302",
+        "points": 26,
+        "mean": 12.7281,
+        "std_dev": 0.2581,
+        "centerline": 12.7281,
+        "ucl": 13.5025,
+        "lcl": 11.9538,
+        "target": 12.8,
+        "lsl": 11.8,
+        "usl": 13.8,
+        "points_out_of_control": 0,
+        "points_out_of_spec": 0,
+        "cp": 1.291,
+        "cpk": 1.199
+      },
+      {
+        "machine_id": "M-202",
+        "points": 22,
+        "mean": 12.8372,
+        "std_dev": 0.2577,
+        "centerline": 12.8372,
+        "ucl": 13.6104,
+        "lcl": 12.064,
+        "target": 12.8,
+        "lsl": 11.8,
+        "usl": 13.8,
+        "points_out_of_control": 0,
+        "points_out_of_spec": 0,
+        "cp": 1.293,
+        "cpk": 1.245
+      },
+      {
+        "machine_id": "M-103",
+        "points": 23,
+        "mean": 13.0962,
+        "std_dev": 0.2634,
+        "centerline": 13.0962,
+        "ucl": 13.8865,
+        "lcl": 12.306,
+        "target": 13.1,
+        "lsl": 12.1,
+        "usl": 14.1,
+        "points_out_of_control": 0,
+        "points_out_of_spec": 0,
+        "cp": 1.265,
+        "cpk": 1.261
+      },
+      {
+        "machine_id": "M-301",
+        "points": 21,
+        "mean": 12.5983,
+        "std_dev": 0.2138,
+        "centerline": 12.5983,
+        "ucl": 13.2398,
+        "lcl": 11.9568,
+        "target": 12.5,
+        "lsl": 11.5,
+        "usl": 13.5,
+        "points_out_of_control": 0,
+        "points_out_of_spec": 0,
+        "cp": 1.559,
+        "cpk": 1.406
+      }
+    ]
+  },
+  "predictive_maintenance": {
+    "panel_rows": 432,
+    "feature_count": 9,
+    "target": "failure_within_7_days",
+    "positive_rate": 0.5903,
+    "train_rows": 324,
+    "test_rows": 108,
+    "model_results": [
+      {
+        "model": "Logistic Regression",
+        "accuracy": 0.5556,
+        "precision": 0.6212,
+        "recall": 0.6406,
+        "f1": 0.6308,
+        "roc_auc": 0.598,
+        "true_negatives": 19,
+        "false_positives": 25,
+        "false_negatives": 23,
+        "true_positives": 41
+      },
+      {
+        "model": "Random Forest",
+        "accuracy": 0.8519,
+        "precision": 0.8871,
+        "recall": 0.8594,
+        "f1": 0.873,
+        "roc_auc": 0.9276,
+        "true_negatives": 37,
+        "false_positives": 7,
+        "false_negatives": 9,
+        "true_positives": 55
+      }
+    ],
+    "recommended_model": "Random Forest",
+    "recommended_model_recall": 0.8594,
+    "feature_importance": [
+      {
+        "feature": "runtime_hours",
+        "importance": 0.2474
+      },
+      {
+        "feature": "machine_age_years",
+        "importance": 0.2029
+      },
+      {
+        "feature": "roll_temp_7",
+        "importance": 0.1349
+      },
+      {
+        "feature": "roll_pressure_7",
+        "importance": 0.1216
+      },
+      {
+        "feature": "roll_vibration_7",
+        "importance": 0.1079
+      },
+      {
+        "feature": "alarm_count_7",
+        "importance": 0.1015
+      },
+      {
+        "feature": "downtime_events_7",
+        "importance": 0.0562
+      },
+      {
+        "feature": "criticality_code",
+        "importance": 0.0155
+      },
+      {
+        "feature": "maintenance_count_30",
+        "importance": 0.0121
+      }
+    ],
+    "high_risk_machines": [
+      {
+        "machine_id": "M-302",
+        "avg_risk_probability": 0.872,
+        "latest_runtime_hours": 254.0,
+        "avg_vibration": 2.404,
+        "avg_temperature": 66.963,
+        "criticality": "Medium",
+        "machine_age_years": 9.147,
+        "risk_tier": "High"
+      },
+      {
+        "machine_id": "M-202",
+        "avg_risk_probability": 0.799,
+        "latest_runtime_hours": 308.2,
+        "avg_vibration": 2.673,
+        "avg_temperature": 72.032,
+        "criticality": "High",
+        "machine_age_years": 15.146,
+        "risk_tier": "High"
+      },
+      {
+        "machine_id": "M-103",
+        "avg_risk_probability": 0.787,
+        "latest_runtime_hours": 263.8,
+        "avg_vibration": 2.359,
+        "avg_temperature": 67.518,
+        "criticality": "High",
+        "machine_age_years": 10.146,
+        "risk_tier": "High"
+      },
+      {
+        "machine_id": "M-201",
+        "avg_risk_probability": 0.644,
+        "latest_runtime_hours": 236.5,
+        "avg_vibration": 2.26,
+        "avg_temperature": 64.706,
+        "criticality": "Medium",
+        "machine_age_years": 7.146,
+        "risk_tier": "Medium"
+      },
+      {
+        "machine_id": "M-102",
+        "avg_risk_probability": 0.514,
+        "latest_runtime_hours": 245.8,
+        "avg_vibration": 2.238,
+        "avg_temperature": 65.814,
+        "criticality": "Medium",
+        "machine_age_years": 8.145,
+        "risk_tier": "Medium"
+      },
+      {
+        "machine_id": "M-101",
+        "avg_risk_probability": 0.476,
+        "latest_runtime_hours": 290.5,
+        "avg_vibration": 2.615,
+        "avg_temperature": 70.208,
+        "criticality": "High",
+        "machine_age_years": 13.147,
+        "risk_tier": "Medium"
+      },
+      {
+        "machine_id": "M-203",
+        "avg_risk_probability": 0.448,
+        "latest_runtime_hours": 227.5,
+        "avg_vibration": 2.199,
+        "avg_temperature": 63.669,
+        "criticality": "Low",
+        "machine_age_years": 6.146,
+        "risk_tier": "Medium"
+      },
+      {
+        "machine_id": "M-301",
+        "avg_risk_probability": 0.42,
+        "latest_runtime_hours": 272.2,
+        "avg_vibration": 2.444,
+        "avg_temperature": 67.386,
+        "criticality": "High",
+        "machine_age_years": 11.146,
+        "risk_tier": "Medium"
+      }
+    ]
+  },
+  "root_cause": [
+    {
+      "finding": "M-202 has the lowest OEE in the plant (83.5%)",
+      "likely_driver": "Availability loss from unplanned stops and below-target performance",
+      "business_impact": "Reduced effective capacity and higher unit cost on this asset",
+      "recommended_action": "Prioritise this machine for a focused OEE improvement review (setup reduction, minor-stop elimination)",
+      "priority": "High",
+      "affected_area": "Line  / M-202"
+    },
+    {
+      "finding": "Unplanned downtime accounts for 66% of all downtime; 'power fluctuation' is the largest reason",
+      "likely_driver": "Recurring 'power fluctuation' events, concentrated on M-202",
+      "business_impact": "~72 operating hours lost to unplanned stops",
+      "recommended_action": "Launch a Pareto-led downtime reduction effort on the top reason and condition-monitor the worst machine",
+      "priority": "High",
+      "affected_area": "M-202"
+    },
+    {
+      "finding": "Line B has the highest defect rate; 'misalignment' is the most common defect",
+      "likely_driver": "Process variation and shift-related quality differences",
+      "business_impact": "~$210,428 estimated scrap and rework margin loss",
+      "recommended_action": "Stand up a containment and corrective-action plan for the top defect type on the worst line",
+      "priority": "High",
+      "affected_area": "Line B"
+    },
+    {
+      "finding": "7 process(es) below Cpk 1.33; M-102 is the least capable",
+      "likely_driver": "Excess common-cause variation relative to the spec window",
+      "business_impact": "0 inspection point(s) outside specification raise escape and rework risk",
+      "recommended_action": "Centre and tighten the lowest-capability process; investigate any out-of-control points for special causes",
+      "priority": "High",
+      "affected_area": "M-102"
+    },
+    {
+      "finding": "M-302 carries the highest predicted failure risk (87%) over the next 7 days",
+      "likely_driver": "Elevated vibration/temperature trend, machine age, and recent event history",
+      "business_impact": "High likelihood of an unplanned stop and reactive repair cost",
+      "recommended_action": "Schedule a proactive inspection on M-302 and review the Random Forest watchlist weekly (recall 0.86)",
+      "priority": "High",
+      "affected_area": "M-302"
+    }
+  ],
+  "executive_recommendations": [
+    {
+      "action": "Prioritise this machine for a focused OEE improvement review (setup reduction, minor-stop elimination)",
+      "area": "Line  / M-202",
+      "rationale": "M-202 has the lowest OEE in the plant (83.5%)",
+      "priority": "High"
+    },
+    {
+      "action": "Launch a Pareto-led downtime reduction effort on the top reason and condition-monitor the worst machine",
+      "area": "M-202",
+      "rationale": "Unplanned downtime accounts for 66% of all downtime; 'power fluctuation' is the largest reason",
+      "priority": "High"
+    },
+    {
+      "action": "Stand up a containment and corrective-action plan for the top defect type on the worst line",
+      "area": "Line B",
+      "rationale": "Line B has the highest defect rate; 'misalignment' is the most common defect",
+      "priority": "High"
+    },
+    {
+      "action": "Centre and tighten the lowest-capability process; investigate any out-of-control points for special causes",
+      "area": "M-102",
+      "rationale": "7 process(es) below Cpk 1.33; M-102 is the least capable",
+      "priority": "High"
+    },
+    {
+      "action": "Schedule a proactive inspection on M-302 and review the Random Forest watchlist weekly (recall 0.86)",
+      "area": "M-302",
+      "rationale": "M-302 carries the highest predicted failure risk (87%) over the next 7 days",
+      "priority": "High"
+    }
+  ],
+  "charts": [
+    {
+      "key": "oee_trend",
+      "title": "Weekly OEE Trend",
+      "file": "oee_trend.png",
+      "description": "Plant OEE and its availability and quality components by week.",
+      "image": "/images/manufacturing/oee_trend.png",
+      "available": true
+    },
+    {
+      "key": "downtime_pareto",
+      "title": "Downtime Pareto by Reason",
+      "file": "downtime_pareto.png",
+      "description": "Downtime minutes by reason with cumulative contribution.",
+      "image": "/images/manufacturing/downtime_pareto.png",
+      "available": true
+    },
+    {
+      "key": "defect_rate_by_line",
+      "title": "Defect Rate by Production Line",
+      "file": "defect_rate_by_line.png",
+      "description": "Inspection defect rate compared across production lines.",
+      "image": "/images/manufacturing/defect_rate_by_line.png",
+      "available": true
+    },
+    {
+      "key": "spc_control_chart",
+      "title": "SPC Control Chart",
+      "file": "spc_control_chart.png",
+      "description": "Individuals control chart for the lowest-capability process.",
+      "image": "/images/manufacturing/spc_control_chart.png",
+      "available": true
+    },
+    {
+      "key": "maintenance_risk",
+      "title": "Predicted 7-Day Failure Risk by Machine",
+      "file": "maintenance_risk_top_machines.png",
+      "description": "Average predicted failure probability per machine.",
+      "image": "/images/manufacturing/maintenance_risk_top_machines.png",
+      "available": true
+    }
+  ],
+  "meta": {
+    "schema_version": "1.0",
+    "reproducible": true,
+    "note": "All figures are derived from reproducible synthetic data produced by the src/generate_data.py script using a fixed random seed."
+  }
+}

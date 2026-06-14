@@ -1,0 +1,11 @@
+downtime_reason,downtime_minutes,events,avg_minutes_per_event,share_pct,cumulative_pct
+power fluctuation,824.6,34,24.3,12.65,12.65
+overheat,780.4,32,24.4,11.97,24.62
+bearing fault,772.5,31,24.9,11.85,36.47
+belt wear,750.5,28,26.8,11.51,47.98
+sensor drift,634.3,25,25.4,9.73,57.71
+scheduled inspection,632.9,25,25.3,9.71,67.42
+lubrication issue,570.0,24,23.8,8.74,76.16
+planned maintenance,557.6,23,24.2,8.55,84.71
+tool change,504.3,20,25.2,7.74,92.45
+calibration,491.6,22,22.3,7.54,99.99

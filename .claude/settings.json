@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/bin/python --version)",
+      "Bash(.venv/bin/python -c \"import pandas, numpy, sklearn, matplotlib, scipy; print\\('all imports ok'\\)\")",
+      "Bash(.venv/bin/python -m src.export_for_web)",
+      "Bash(.venv/bin/python -W error::FutureWarning -c \"from src import quality; quality.run\\(\\)\")",
+      "Bash(.venv/bin/python -m py_compile src/*.py)",
+      "Bash(.venv/bin/python src/run_pipeline.py)",
+      "Bash(echo \"pipeline exit: $?\")",
+      "Read(//tmp/**)",
+      "Bash(.venv/bin/python src/validate_outputs.py)",
+      "Bash(echo \"validate exit: $?\")"
+    ]
+  }
+}

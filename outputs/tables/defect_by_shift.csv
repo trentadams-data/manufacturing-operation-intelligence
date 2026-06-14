@@ -1,0 +1,4 @@
+shift,inspections,sample_size,defect_count,defect_rate
+Night,73,4401,156,0.0354
+Day,53,3356,78,0.0232
+Swing,56,3178,72,0.0227

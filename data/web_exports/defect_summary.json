@@ -1,0 +1,191 @@
+{
+  "overall_defect_rate": 0.028,
+  "total_inspected_units": 10935,
+  "total_defects": 306,
+  "by_line": [
+    {
+      "production_line": "Line B",
+      "inspections": 23,
+      "sample_size": 1269,
+      "defect_count": 45,
+      "defect_rate": 0.0355
+    },
+    {
+      "production_line": "Line E",
+      "inspections": 47,
+      "sample_size": 2768,
+      "defect_count": 87,
+      "defect_rate": 0.0314
+    },
+    {
+      "production_line": "Line C",
+      "inspections": 46,
+      "sample_size": 2693,
+      "defect_count": 78,
+      "defect_rate": 0.029
+    },
+    {
+      "production_line": "Line A",
+      "inspections": 48,
+      "sample_size": 3060,
+      "defect_count": 82,
+      "defect_rate": 0.0268
+    },
+    {
+      "production_line": "Line D",
+      "inspections": 18,
+      "sample_size": 1145,
+      "defect_count": 14,
+      "defect_rate": 0.0122
+    }
+  ],
+  "by_machine": [
+    {
+      "machine_id": "M-103",
+      "inspections": 23,
+      "sample_size": 1269,
+      "defect_count": 45,
+      "defect_rate": 0.0355
+    },
+    {
+      "machine_id": "M-301",
+      "inspections": 21,
+      "sample_size": 1251,
+      "defect_count": 43,
+      "defect_rate": 0.0344
+    },
+    {
+      "machine_id": "M-202",
+      "inspections": 22,
+      "sample_size": 1166,
+      "defect_count": 36,
+      "defect_rate": 0.0309
+    },
+    {
+      "machine_id": "M-101",
+      "inspections": 26,
+      "sample_size": 1624,
+      "defect_count": 50,
+      "defect_rate": 0.0308
+    },
+    {
+      "machine_id": "M-302",
+      "inspections": 26,
+      "sample_size": 1517,
+      "defect_count": 44,
+      "defect_rate": 0.029
+    },
+    {
+      "machine_id": "M-201",
+      "inspections": 24,
+      "sample_size": 1527,
+      "defect_count": 42,
+      "defect_rate": 0.0275
+    },
+    {
+      "machine_id": "M-102",
+      "inspections": 22,
+      "sample_size": 1436,
+      "defect_count": 32,
+      "defect_rate": 0.0223
+    },
+    {
+      "machine_id": "M-203",
+      "inspections": 18,
+      "sample_size": 1145,
+      "defect_count": 14,
+      "defect_rate": 0.0122
+    }
+  ],
+  "by_product_family": [
+    {
+      "product_family": "Electronics",
+      "inspections": 55,
+      "sample_size": 3135,
+      "defect_count": 95,
+      "defect_rate": 0.0303
+    },
+    {
+      "product_family": "Powertrain",
+      "inspections": 66,
+      "sample_size": 3931,
+      "defect_count": 115,
+      "defect_rate": 0.0293
+    },
+    {
+      "product_family": "Fluid",
+      "inspections": 31,
+      "sample_size": 1773,
+      "defect_count": 48,
+      "defect_rate": 0.0271
+    },
+    {
+      "product_family": "Structural",
+      "inspections": 30,
+      "sample_size": 2096,
+      "defect_count": 48,
+      "defect_rate": 0.0229
+    }
+  ],
+  "by_shift": [
+    {
+      "shift": "Night",
+      "inspections": 73,
+      "sample_size": 4401,
+      "defect_count": 156,
+      "defect_rate": 0.0354
+    },
+    {
+      "shift": "Day",
+      "inspections": 53,
+      "sample_size": 3356,
+      "defect_count": 78,
+      "defect_rate": 0.0232
+    },
+    {
+      "shift": "Swing",
+      "inspections": 56,
+      "sample_size": 3178,
+      "defect_count": 72,
+      "defect_rate": 0.0227
+    }
+  ],
+  "top_defect_types": [
+    {
+      "defect_type": "misalignment",
+      "occurrences": 44,
+      "defect_count": 73,
+      "share_pct": 23.86
+    },
+    {
+      "defect_type": "contamination",
+      "occurrences": 31,
+      "defect_count": 64,
+      "share_pct": 20.92
+    },
+    {
+      "defect_type": "surface scratch",
+      "occurrences": 39,
+      "defect_count": 62,
+      "share_pct": 20.26
+    },
+    {
+      "defect_type": "dimensional drift",
+      "occurrences": 35,
+      "defect_count": 55,
+      "share_pct": 17.97
+    },
+    {
+      "defect_type": "seal leak",
+      "occurrences": 33,
+      "defect_count": 52,
+      "share_pct": 16.99
+    }
+  ],
+  "estimated_scrap_impact": 175356.5,
+  "estimated_rework_impact": 35071.3,
+  "estimated_total_quality_impact": 210427.81,
+  "worst_line": "Line B",
+  "worst_machine": "M-103",
+  "top_defect_type": "misalignment"
+}

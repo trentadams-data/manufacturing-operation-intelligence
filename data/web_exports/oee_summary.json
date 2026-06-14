@@ -1,0 +1,146 @@
+{
+  "plant_total": {
+    "runs": 1448,
+    "availability": 0.901,
+    "performance": 0.9823,
+    "quality": 0.9639,
+    "oee": 0.8531
+  },
+  "by_line": [
+    {
+      "production_line": "Line D",
+      "runs": 181,
+      "availability": 0.8983,
+      "performance": 1.0,
+      "quality": 0.9671,
+      "oee": 0.8688
+    },
+    {
+      "production_line": "Line A",
+      "runs": 362,
+      "availability": 0.9004,
+      "performance": 0.982,
+      "quality": 0.9635,
+      "oee": 0.8519
+    },
+    {
+      "production_line": "Line C",
+      "runs": 362,
+      "availability": 0.9015,
+      "performance": 0.9801,
+      "quality": 0.9637,
+      "oee": 0.8515
+    },
+    {
+      "production_line": "Line E",
+      "runs": 362,
+      "availability": 0.9012,
+      "performance": 0.9797,
+      "quality": 0.9635,
+      "oee": 0.8508
+    },
+    {
+      "production_line": "Line B",
+      "runs": 181,
+      "availability": 0.9036,
+      "performance": 0.97,
+      "quality": 0.962,
+      "oee": 0.8432
+    }
+  ],
+  "by_machine": [
+    {
+      "machine_id": "M-203",
+      "runs": 181,
+      "availability": 0.8983,
+      "performance": 1.0,
+      "quality": 0.9671,
+      "oee": 0.8688
+    },
+    {
+      "machine_id": "M-201",
+      "runs": 181,
+      "availability": 0.8997,
+      "performance": 0.9981,
+      "quality": 0.9665,
+      "oee": 0.8679
+    },
+    {
+      "machine_id": "M-102",
+      "runs": 181,
+      "availability": 0.897,
+      "performance": 0.9998,
+      "quality": 0.9659,
+      "oee": 0.8663
+    },
+    {
+      "machine_id": "M-302",
+      "runs": 181,
+      "availability": 0.9022,
+      "performance": 0.9888,
+      "quality": 0.9655,
+      "oee": 0.8614
+    },
+    {
+      "machine_id": "M-103",
+      "runs": 181,
+      "availability": 0.9036,
+      "performance": 0.97,
+      "quality": 0.962,
+      "oee": 0.8432
+    },
+    {
+      "machine_id": "M-301",
+      "runs": 181,
+      "availability": 0.9002,
+      "performance": 0.9708,
+      "quality": 0.9616,
+      "oee": 0.8404
+    },
+    {
+      "machine_id": "M-101",
+      "runs": 181,
+      "availability": 0.9036,
+      "performance": 0.9646,
+      "quality": 0.9611,
+      "oee": 0.8377
+    },
+    {
+      "machine_id": "M-202",
+      "runs": 181,
+      "availability": 0.9032,
+      "performance": 0.9626,
+      "quality": 0.9609,
+      "oee": 0.8354
+    }
+  ],
+  "by_shift": [
+    {
+      "shift": "Day",
+      "runs": 605,
+      "availability": 0.9006,
+      "performance": 1.0,
+      "quality": 0.9647,
+      "oee": 0.8688
+    },
+    {
+      "shift": "Swing",
+      "runs": 509,
+      "availability": 0.9026,
+      "performance": 0.9697,
+      "quality": 0.9649,
+      "oee": 0.8445
+    },
+    {
+      "shift": "Night",
+      "runs": 334,
+      "availability": 0.8991,
+      "performance": 0.9528,
+      "quality": 0.9607,
+      "oee": 0.823
+    }
+  ],
+  "worst_line": "Line B",
+  "best_line": "Line D",
+  "worst_machine": "M-202"
+}

@@ -1,0 +1,221 @@
+{
+  "total_downtime_minutes": 6518.7,
+  "total_downtime_hours": 108.6,
+  "planned_minutes": 2186.4,
+  "unplanned_minutes": 4332.3,
+  "unplanned_share_pct": 66.46,
+  "events": 264,
+  "by_reason": [
+    {
+      "downtime_reason": "power fluctuation",
+      "downtime_minutes": 824.6,
+      "events": 34,
+      "avg_minutes_per_event": 24.3,
+      "share_pct": 12.65,
+      "cumulative_pct": 12.65
+    },
+    {
+      "downtime_reason": "overheat",
+      "downtime_minutes": 780.4,
+      "events": 32,
+      "avg_minutes_per_event": 24.4,
+      "share_pct": 11.97,
+      "cumulative_pct": 24.62
+    },
+    {
+      "downtime_reason": "bearing fault",
+      "downtime_minutes": 772.5,
+      "events": 31,
+      "avg_minutes_per_event": 24.9,
+      "share_pct": 11.85,
+      "cumulative_pct": 36.47
+    },
+    {
+      "downtime_reason": "belt wear",
+      "downtime_minutes": 750.5,
+      "events": 28,
+      "avg_minutes_per_event": 26.8,
+      "share_pct": 11.51,
+      "cumulative_pct": 47.98
+    },
+    {
+      "downtime_reason": "sensor drift",
+      "downtime_minutes": 634.3,
+      "events": 25,
+      "avg_minutes_per_event": 25.4,
+      "share_pct": 9.73,
+      "cumulative_pct": 57.71
+    },
+    {
+      "downtime_reason": "scheduled inspection",
+      "downtime_minutes": 632.9,
+      "events": 25,
+      "avg_minutes_per_event": 25.3,
+      "share_pct": 9.71,
+      "cumulative_pct": 67.42
+    },
+    {
+      "downtime_reason": "lubrication issue",
+      "downtime_minutes": 570.0,
+      "events": 24,
+      "avg_minutes_per_event": 23.8,
+      "share_pct": 8.74,
+      "cumulative_pct": 76.16
+    },
+    {
+      "downtime_reason": "planned maintenance",
+      "downtime_minutes": 557.6,
+      "events": 23,
+      "avg_minutes_per_event": 24.2,
+      "share_pct": 8.55,
+      "cumulative_pct": 84.71
+    },
+    {
+      "downtime_reason": "tool change",
+      "downtime_minutes": 504.3,
+      "events": 20,
+      "avg_minutes_per_event": 25.2,
+      "share_pct": 7.74,
+      "cumulative_pct": 92.45
+    },
+    {
+      "downtime_reason": "calibration",
+      "downtime_minutes": 491.6,
+      "events": 22,
+      "avg_minutes_per_event": 22.3,
+      "share_pct": 7.54,
+      "cumulative_pct": 99.99
+    }
+  ],
+  "by_machine": [
+    {
+      "machine_id": "M-202",
+      "downtime_minutes": 1182.1,
+      "events": 36,
+      "avg_minutes_per_event": 32.8
+    },
+    {
+      "machine_id": "M-301",
+      "downtime_minutes": 927.5,
+      "events": 33,
+      "avg_minutes_per_event": 28.1
+    },
+    {
+      "machine_id": "M-101",
+      "downtime_minutes": 904.9,
+      "events": 36,
+      "avg_minutes_per_event": 25.1
+    },
+    {
+      "machine_id": "M-103",
+      "downtime_minutes": 798.1,
+      "events": 33,
+      "avg_minutes_per_event": 24.2
+    },
+    {
+      "machine_id": "M-102",
+      "downtime_minutes": 739.0,
+      "events": 35,
+      "avg_minutes_per_event": 21.1
+    },
+    {
+      "machine_id": "M-302",
+      "downtime_minutes": 727.1,
+      "events": 29,
+      "avg_minutes_per_event": 25.1
+    },
+    {
+      "machine_id": "M-201",
+      "downtime_minutes": 651.8,
+      "events": 32,
+      "avg_minutes_per_event": 20.4
+    },
+    {
+      "machine_id": "M-203",
+      "downtime_minutes": 588.2,
+      "events": 30,
+      "avg_minutes_per_event": 19.6
+    }
+  ],
+  "by_line": [
+    {
+      "production_line": "Line C",
+      "downtime_minutes": 1833.9,
+      "events": 68,
+      "avg_minutes_per_event": 27.0
+    },
+    {
+      "production_line": "Line E",
+      "downtime_minutes": 1654.6,
+      "events": 62,
+      "avg_minutes_per_event": 26.7
+    },
+    {
+      "production_line": "Line A",
+      "downtime_minutes": 1643.9,
+      "events": 71,
+      "avg_minutes_per_event": 23.2
+    },
+    {
+      "production_line": "Line B",
+      "downtime_minutes": 798.1,
+      "events": 33,
+      "avg_minutes_per_event": 24.2
+    },
+    {
+      "production_line": "Line D",
+      "downtime_minutes": 588.2,
+      "events": 30,
+      "avg_minutes_per_event": 19.6
+    }
+  ],
+  "by_shift": [
+    {
+      "shift": "Day",
+      "downtime_minutes": 2276.2,
+      "events": 90,
+      "avg_minutes_per_event": 25.3
+    },
+    {
+      "shift": "Night",
+      "downtime_minutes": 2163.3,
+      "events": 95,
+      "avg_minutes_per_event": 22.8
+    },
+    {
+      "shift": "Swing",
+      "downtime_minutes": 2079.2,
+      "events": 79,
+      "avg_minutes_per_event": 26.3
+    }
+  ],
+  "top_recurring_issues": [
+    {
+      "downtime_reason": "power fluctuation",
+      "events": 34,
+      "downtime_minutes": 824.6
+    },
+    {
+      "downtime_reason": "overheat",
+      "events": 32,
+      "downtime_minutes": 780.4
+    },
+    {
+      "downtime_reason": "bearing fault",
+      "events": 31,
+      "downtime_minutes": 772.5
+    },
+    {
+      "downtime_reason": "belt wear",
+      "events": 28,
+      "downtime_minutes": 750.5
+    },
+    {
+      "downtime_reason": "scheduled inspection",
+      "events": 25,
+      "downtime_minutes": 632.9
+    }
+  ],
+  "worst_reason": "power fluctuation",
+  "worst_machine": "M-202"
+}

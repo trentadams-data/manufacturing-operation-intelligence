@@ -1,0 +1,9 @@
+machine_id,avg_risk_probability,latest_runtime_hours,avg_vibration,avg_temperature,criticality,machine_age_years,risk_tier
+M-302,0.872,254.0,2.404,66.963,Medium,9.147,High
+M-202,0.799,308.2,2.673,72.032,High,15.146,High
+M-103,0.787,263.8,2.359,67.518,High,10.146,High
+M-201,0.644,236.5,2.26,64.706,Medium,7.146,Medium
+M-102,0.514,245.8,2.238,65.814,Medium,8.145,Medium
+M-101,0.476,290.5,2.615,70.208,High,13.147,Medium
+M-203,0.448,227.5,2.199,63.669,Low,6.146,Medium
+M-301,0.42,272.2,2.444,67.386,High,11.146,Medium

@@ -1,0 +1,6 @@
+production_line,inspections,sample_size,defect_count,defect_rate
+Line B,23,1269,45,0.0355
+Line E,47,2768,87,0.0314
+Line C,46,2693,78,0.029
+Line A,48,3060,82,0.0268
+Line D,18,1145,14,0.0122

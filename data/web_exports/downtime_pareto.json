@@ -1,0 +1,82 @@
+[
+  {
+    "downtime_reason": "power fluctuation",
+    "downtime_minutes": 824.6,
+    "events": 34,
+    "avg_minutes_per_event": 24.3,
+    "share_pct": 12.65,
+    "cumulative_pct": 12.65
+  },
+  {
+    "downtime_reason": "overheat",
+    "downtime_minutes": 780.4,
+    "events": 32,
+    "avg_minutes_per_event": 24.4,
+    "share_pct": 11.97,
+    "cumulative_pct": 24.62
+  },
+  {
+    "downtime_reason": "bearing fault",
+    "downtime_minutes": 772.5,
+    "events": 31,
+    "avg_minutes_per_event": 24.9,
+    "share_pct": 11.85,
+    "cumulative_pct": 36.47
+  },
+  {
+    "downtime_reason": "belt wear",
+    "downtime_minutes": 750.5,
+    "events": 28,
+    "avg_minutes_per_event": 26.8,
+    "share_pct": 11.51,
+    "cumulative_pct": 47.98
+  },
+  {
+    "downtime_reason": "sensor drift",
+    "downtime_minutes": 634.3,
+    "events": 25,
+    "avg_minutes_per_event": 25.4,
+    "share_pct": 9.73,
+    "cumulative_pct": 57.71
+  },
+  {
+    "downtime_reason": "scheduled inspection",
+    "downtime_minutes": 632.9,
+    "events": 25,
+    "avg_minutes_per_event": 25.3,
+    "share_pct": 9.71,
+    "cumulative_pct": 67.42
+  },
+  {
+    "downtime_reason": "lubrication issue",
+    "downtime_minutes": 570.0,
+    "events": 24,
+    "avg_minutes_per_event": 23.8,
+    "share_pct": 8.74,
+    "cumulative_pct": 76.16
+  },
+  {
+    "downtime_reason": "planned maintenance",
+    "downtime_minutes": 557.6,
+    "events": 23,
+    "avg_minutes_per_event": 24.2,
+    "share_pct": 8.55,
+    "cumulative_pct": 84.71
+  },
+  {
+    "downtime_reason": "tool change",
+    "downtime_minutes": 504.3,
+    "events": 20,
+    "avg_minutes_per_event": 25.2,
+    "share_pct": 7.74,
+    "cumulative_pct": 92.45
+  },
+  {
+    "downtime_reason": "calibration",
+    "downtime_minutes": 491.6,
+    "events": 22,
+    "avg_minutes_per_event": 22.3,
+    "share_pct": 7.54,
+    "cumulative_pct": 99.99
+  }
+]

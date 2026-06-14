@@ -1,0 +1,218 @@
+[
+  {
+    "week_start": "2024-12-30",
+    "runs": 40,
+    "availability": 0.8975,
+    "performance": 0.9854,
+    "quality": 0.9639,
+    "oee": 0.8525
+  },
+  {
+    "week_start": "2025-01-06",
+    "runs": 56,
+    "availability": 0.901,
+    "performance": 0.9795,
+    "quality": 0.9637,
+    "oee": 0.8504
+  },
+  {
+    "week_start": "2025-01-13",
+    "runs": 56,
+    "availability": 0.895,
+    "performance": 0.985,
+    "quality": 0.9636,
+    "oee": 0.8495
+  },
+  {
+    "week_start": "2025-01-20",
+    "runs": 56,
+    "availability": 0.9064,
+    "performance": 0.9778,
+    "quality": 0.9637,
+    "oee": 0.8542
+  },
+  {
+    "week_start": "2025-01-27",
+    "runs": 56,
+    "availability": 0.8981,
+    "performance": 0.9808,
+    "quality": 0.9635,
+    "oee": 0.8487
+  },
+  {
+    "week_start": "2025-02-03",
+    "runs": 56,
+    "availability": 0.9079,
+    "performance": 0.9765,
+    "quality": 0.9638,
+    "oee": 0.8544
+  },
+  {
+    "week_start": "2025-02-10",
+    "runs": 56,
+    "availability": 0.9038,
+    "performance": 0.9757,
+    "quality": 0.9636,
+    "oee": 0.8498
+  },
+  {
+    "week_start": "2025-02-17",
+    "runs": 56,
+    "availability": 0.8923,
+    "performance": 0.9934,
+    "quality": 0.964,
+    "oee": 0.8544
+  },
+  {
+    "week_start": "2025-02-24",
+    "runs": 56,
+    "availability": 0.9077,
+    "performance": 0.9695,
+    "quality": 0.9637,
+    "oee": 0.848
+  },
+  {
+    "week_start": "2025-03-03",
+    "runs": 56,
+    "availability": 0.9012,
+    "performance": 0.9763,
+    "quality": 0.9635,
+    "oee": 0.8478
+  },
+  {
+    "week_start": "2025-03-10",
+    "runs": 56,
+    "availability": 0.9018,
+    "performance": 0.9828,
+    "quality": 0.9642,
+    "oee": 0.8545
+  },
+  {
+    "week_start": "2025-03-17",
+    "runs": 56,
+    "availability": 0.8984,
+    "performance": 0.9885,
+    "quality": 0.9642,
+    "oee": 0.8562
+  },
+  {
+    "week_start": "2025-03-24",
+    "runs": 56,
+    "availability": 0.8937,
+    "performance": 0.99,
+    "quality": 0.9637,
+    "oee": 0.8526
+  },
+  {
+    "week_start": "2025-03-31",
+    "runs": 56,
+    "availability": 0.8995,
+    "performance": 0.9893,
+    "quality": 0.964,
+    "oee": 0.8578
+  },
+  {
+    "week_start": "2025-04-07",
+    "runs": 56,
+    "availability": 0.9084,
+    "performance": 0.9787,
+    "quality": 0.9641,
+    "oee": 0.8571
+  },
+  {
+    "week_start": "2025-04-14",
+    "runs": 56,
+    "availability": 0.8911,
+    "performance": 0.99,
+    "quality": 0.9637,
+    "oee": 0.8501
+  },
+  {
+    "week_start": "2025-04-21",
+    "runs": 56,
+    "availability": 0.8957,
+    "performance": 0.9922,
+    "quality": 0.964,
+    "oee": 0.8566
+  },
+  {
+    "week_start": "2025-04-28",
+    "runs": 56,
+    "availability": 0.8987,
+    "performance": 0.9852,
+    "quality": 0.9638,
+    "oee": 0.8534
+  },
+  {
+    "week_start": "2025-05-05",
+    "runs": 56,
+    "availability": 0.9011,
+    "performance": 0.9829,
+    "quality": 0.964,
+    "oee": 0.8538
+  },
+  {
+    "week_start": "2025-05-12",
+    "runs": 56,
+    "availability": 0.9014,
+    "performance": 0.9802,
+    "quality": 0.9638,
+    "oee": 0.8515
+  },
+  {
+    "week_start": "2025-05-19",
+    "runs": 56,
+    "availability": 0.9061,
+    "performance": 0.9802,
+    "quality": 0.9639,
+    "oee": 0.8561
+  },
+  {
+    "week_start": "2025-05-26",
+    "runs": 56,
+    "availability": 0.9051,
+    "performance": 0.9802,
+    "quality": 0.9641,
+    "oee": 0.8553
+  },
+  {
+    "week_start": "2025-06-02",
+    "runs": 56,
+    "availability": 0.9056,
+    "performance": 0.9753,
+    "quality": 0.9642,
+    "oee": 0.8516
+  },
+  {
+    "week_start": "2025-06-09",
+    "runs": 56,
+    "availability": 0.9031,
+    "performance": 0.9802,
+    "quality": 0.964,
+    "oee": 0.8534
+  },
+  {
+    "week_start": "2025-06-16",
+    "runs": 56,
+    "availability": 0.8964,
+    "performance": 0.9875,
+    "quality": 0.9638,
+    "oee": 0.8532
+  },
+  {
+    "week_start": "2025-06-23",
+    "runs": 56,
+    "availability": 0.9062,
+    "performance": 0.9814,
+    "quality": 0.9641,
+    "oee": 0.8573
+  },
+  {
+    "week_start": "2025-06-30",
+    "runs": 8,
+    "availability": 0.9139,
+    "performance": 0.9655,
+    "quality": 0.9631,
+    "oee": 0.8498
+  }
+]

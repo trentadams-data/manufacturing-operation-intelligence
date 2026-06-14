@@ -1,0 +1,6 @@
+defect_type,occurrences,defect_count,share_pct
+misalignment,44,73,23.86
+contamination,31,64,20.92
+surface scratch,39,62,20.26
+dimensional drift,35,55,17.97
+seal leak,33,52,16.99

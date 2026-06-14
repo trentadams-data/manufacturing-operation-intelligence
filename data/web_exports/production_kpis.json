@@ -1,0 +1,18 @@
+{
+  "total_production_runs": 1448,
+  "total_units_produced": 729397.4,
+  "total_good_units": 703034.9,
+  "total_scrap_units": 15806.4,
+  "total_rework_units": 10558.0,
+  "scrap_rate": 0.0217,
+  "rework_rate": 0.0145,
+  "first_pass_yield": 0.9639,
+  "throughput_per_operating_hour": 79.96,
+  "schedule_attainment": 0.8851,
+  "production_variance_units": -94725.5,
+  "production_variance_pct": -0.1149,
+  "estimated_scrap_cost": 219960.6,
+  "estimated_rework_cost": 44027.31,
+  "unplanned_downtime_minutes": 4332.3,
+  "estimated_lost_margin_downtime": 80260.01
+}
